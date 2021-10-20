@@ -15,10 +15,22 @@ body{
 *{
   padding :0;
   margin :0;
-  font- family: var(--Quicksand);
+  font-family: var(--Quicksand);
+}
+
+.container{
+  max-width : 1320 px;
+  margin :0 auto;
+  padding : 0 1.2rem;
+}
+
+header{
+  min-height : 50vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url()
 }
 
 .navbar-nav {
+  color : #1e90ff;
   text-align : center;
   
 }
