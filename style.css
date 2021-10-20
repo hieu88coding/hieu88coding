@@ -57,8 +57,12 @@ header{
   transition : opacity 0.5s ease;
 }
 
-.Blogname{
+.blogname{
+  text-align: center;
+  font-size :1.5rem;
   font-family: var(--Playfair);
+  line-height:1.;
+  justify-content:center;
 }
 
 form{
