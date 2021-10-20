@@ -26,15 +26,25 @@ body{
 
 header{
   min-height : 50vh;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url()
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://coolbackgrounds.io/images/backgrounds/white/white-unsplash-9d0375d2.jpg) center/ cover no-repeat fixed;
+  display : block;
+  flex direction : column;
+  justify-content: stretch;
 }
 
-.navbar-nav {
+
+.navbar{
+  background: rgba(0,0,0,0.6);
+  padding : 1.2rem;
   color : #1e90ff;
   text-align : center;
   
 }
 
+.navbar-nav{
+  padding: 0.8rem 0 0.2rem 0;
+}
+
 .navbar-nav a{
-  color: #acc947;
+  color: ;
 }
