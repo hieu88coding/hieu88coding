@@ -37,14 +37,27 @@ header{
   background: rgba(0,0,0,0.6);
   padding : 1.2rem;
   color : #1e90ff;
-  text-align : center;
   
 }
 
 .navbar-nav{
   padding: 0.8rem 0 0.2rem 0;
+  text-align : center;
+  
 }
 
 .navbar-nav a{
-  color: ;
+  text-transform: uppercase;
+  font-family : var(--Roboto);
+  letter-spacing: 1px;
+  color: #f0f8ff;
+  text-decoration : none;
+  display :inline-block;
+  padding : 0.4rem 0.1rem;
+  transition : opacity 0.5s ease;
+}
+
+label{
+  align-items: center;
+  justify-content : center;
 }
