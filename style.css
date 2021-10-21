@@ -84,3 +84,10 @@ header{
   font-size: 1.3rem;
   word-spacing: 2px;
 }
+
+.question select{
+  border-radius: 2rem;
+  padding: 0.6rem 0.5rem;
+  width: 210px;
+  cursor: pointer;
+}
