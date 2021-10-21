@@ -95,3 +95,27 @@ header{
 .design{
   padding : 4.5rem 0;
 }
+
+.title{
+  text-align: center;
+  padding:1.2rem;
+}
+
+.title h2{
+  font-family: var(--Playfair);
+  font-size:2.4rem;
+}
+
+.title p{
+  text-transform : uppercase;
+  padding :0.6rem 0;
+}
+
+.design-content{
+  margin: 2rem 0;
+}
+
+.design-item{
+  cursor: pointer;
+  overflow: hidden;
+}
