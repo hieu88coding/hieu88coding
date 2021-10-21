@@ -117,5 +117,17 @@ header{
 
 .design-item{
   cursor: pointer;
-  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+.design-img{
+  position:relative;
+  overflow:hidden;
+}
+
+.design-img::after{
+  position: absolute;
+  content :" ";
+  top :0;
+  left :0
 }
