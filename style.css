@@ -66,10 +66,16 @@ header{
   text-align: center;
 }
 
-#blogname{
+.blogname{
   font-family: var(--Playfair);
   display: block;
   text-align: center;
+}
+
+.banner p{
+  font-family: var(--Playfair);
+  font-size: 1.1rem;
+  
 }
 
 form{
