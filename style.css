@@ -66,7 +66,7 @@ header{
   text-align: center;
 }
 
-.blogname{
+#blogname{
   font-family: var(--Playfair);
   display: block;
   text-align: center;
@@ -74,6 +74,8 @@ header{
 
 form{
   display:block;
-  text-align
-  
+  text-align: center;
+  margin: 40px 0 20px 0;
+  padding: 10px;
+  font-family: var(--Playfair);
 }
