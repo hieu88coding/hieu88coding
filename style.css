@@ -4,7 +4,7 @@
   --Playfair:'Playfair Display', serif;
   --Quicksand : 'Quicksand', sans-serif;
   --Roboto :'Roboto', sans-serif;
-  --dark #375dc9;
+  --dark #737373;
 }
 
 body{
@@ -156,15 +156,28 @@ header{
 }
 
 footer{
-  display:block;
   background: var(--dark);
-  color : #fff;
+  /color : #737373;
   text-align:center;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 .social-links{
   display:flex;
   justify-content:center;
   margin-bottom:1.4rem;
+}
+
+.social-links a{
+  border : 2px solid ;
+  color: #737373;
+  display:block;
+  width: 40px;
+  height:40px;
+  border-radius:50%;
+  justify-content: center;
+  align-items:center;
+  text-decoration:none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
 }
