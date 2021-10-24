@@ -169,15 +169,16 @@ footer{
 }
 
 .social-links a{
-  border : 2px solid ;
+  border: 2px solid #737373;
+  padding: 10px 5px 0 5px;
   color: #737373;
   display:block;
   width: 40px;
   height:40px;
   border-radius:50%;
   justify-content: center;
-  align-items:center;
-  text-decoration:none;
+  align-items: center;
+  text-decoration: none;
   margin: 0 0.3rem;
   transition: all 0.5s ease;
 }
