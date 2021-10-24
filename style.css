@@ -154,3 +154,17 @@ header{
   color : var(--dark);
   text-decoration :none;
 }
+
+footer{
+  display:block;
+  background: var(--dark);
+  color : #fff;
+  text-align:center;
+  padding: 2rem 0;
+}
+
+.social-links{
+  display:flex;
+  justify-content:center;
+  margin-bottom:1.4rem;
+}
