@@ -189,18 +189,15 @@ footer{
 }
 
 
-.avatar{
-  position:relative;
-}
 
 .avatar img{
+  position: relative;
   width : 300px;
   height: 300px;
 }
 
-.avatar introduction{
+.avatar p{
   position:absolute;
-  left:0;
-  top:0;
+  left:200px;
   
 }
