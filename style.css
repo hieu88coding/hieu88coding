@@ -198,3 +198,13 @@ footer{
   top :0;
   
 }
+
+h3{
+  margin-top:1.2rem;
+}
+
+.h3content{
+  position:block;
+  padding:1.2rem;
+  font-size: 20px;
+}
