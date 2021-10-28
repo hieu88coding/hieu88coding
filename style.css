@@ -191,6 +191,13 @@ footer{
 
 .avatar img{
   position: relative;
-  width : 100px;
-  height: 100px;
+  width : 300px;
+  height: 300px;
+}
+
+#introduction{
+  position:absolute;
+  left: 350px;
+  top: 250px;
+  
 }
