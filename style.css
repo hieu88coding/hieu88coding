@@ -189,8 +189,8 @@ footer{
 }
 
 
-.Avatar {
+.avatar img{
   position: relative;
-  text-align:center;
-  
+  width : 100px;
+  height: 100px;
 }
