@@ -4,12 +4,11 @@
   --Playfair:'Playfair Display', serif;
   --Quicksand : 'Quicksand', sans-serif;
   --Roboto :'Roboto', sans-serif;
-  --dark #737373;
+  --dark  #737373;
 }
 
 body{
   line-height : 1.4;
-  color : var(--dark);
 }
 
 *{
@@ -36,7 +35,6 @@ header{
 .navbar{
   background: rgba(0,0,0,0.6);
   padding : 1.2rem;
-  color : #1e90ff;
   
 }
 
@@ -156,8 +154,7 @@ header{
 }
 
 footer{
-  background: var(--dark);
-  /color : #737373;
+  background: rgba(0, 0, 0,0.6);
   text-align:center;
   padding: 1.5rem 0;
 }
@@ -169,10 +166,9 @@ footer{
 }
 
 .social-links a{
-  border: 2px solid #737373;
+  border: 1.5px solid #f0f8ff;
   padding: 10px 5px 0 5px;
-  color: #737373;
-  display:block;
+  color: #f0f8ff;
   width: 40px;
   height:40px;
   border-radius:50%;
