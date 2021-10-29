@@ -9,6 +9,7 @@
 
 body{
   line-height : 1.4;
+  position:relative;
 }
 
 *{
@@ -155,9 +156,11 @@ header{
 }
 
 footer{
+  position:absolute;
+  width:100%;
   background: rgba(0, 0, 0,0.6);
   padding: 1.5rem 0;
-  margin-bottom:0px;
+  bottom:0;
 }
 
 .social-links{
