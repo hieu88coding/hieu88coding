@@ -192,8 +192,8 @@ footer{
 }
 
 .noidung {
-  display:block;
-  margin:30px 300px 0 300px;
+  
+  margin: -310px 0 0 336px;
   top :0px;
   
 }
@@ -203,7 +203,6 @@ h3{
 }
 
 .h3content{
-  position:block;
   padding:1.2rem;
   font-size: 20px;
 }
