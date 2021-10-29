@@ -156,7 +156,6 @@ header{
 
 footer{
   background: rgba(0, 0, 0,0.6);
-  text-align:center;
   padding: 1.5rem 0;
 }
 
@@ -174,7 +173,7 @@ footer{
   height:60px;
   border-radius:50%;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   text-decoration: none;
   margin:0 0.3rem;
   transition: all 0.5s ease;
