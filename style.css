@@ -45,6 +45,7 @@ header{
 }
 
 .navbar-nav a{
+  margin: 2.5px;
   text-transform: uppercase;
   font-family : var(--Roboto);
   letter-spacing: 1px;
