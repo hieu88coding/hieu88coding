@@ -192,8 +192,8 @@ footer{
 }
 
 .noidung {
-  position:absolute;
-  left:400px;
+  display:block;
+  margin:30px 300px 0 300px;
   top :0px;
   
 }
