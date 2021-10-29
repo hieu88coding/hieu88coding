@@ -167,16 +167,13 @@ footer{
 }
 
 .social-links a{
-  border: 1.5px solid #f0f8ff;
-  padding: 5px 5px 5px 5px ;
   color: #f0f8ff;
-  width: 40px;
-  height:40px;
+  width: 100px;
+  height:100px;
   border-radius:50%;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  margin: 0 0.3rem;
   transition: all 0.5s ease;
 }
 
