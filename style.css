@@ -157,6 +157,7 @@ header{
 footer{
   background: rgba(0, 0, 0,0.6);
   padding: 1.5rem 0;
+  bottom: 0;
 }
 
 .social-links{
