@@ -218,3 +218,16 @@ h3{
   border: 1.2px solid white;
   margin:0 181px 0 422px;
 }
+.design-list{
+  font-size:20px;
+  text-align:center;
+}
+
+.design-list p{
+  margin: 10px 0 10px 0;
+}
+
+.design-list a{
+  margin:0 0 10px 0;
+  text-decoration:none;
+}
