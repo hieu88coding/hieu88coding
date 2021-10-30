@@ -223,11 +223,12 @@ h3{
   text-align:center;
 }
 
-.design-list p{
-  margin: 10px 0 10px 0;
+.list{
+  padding :0;
+  margin: 10px;
 }
 
-.design-list a{
-  margin:0 0 10px 0;
+.list a{
   text-decoration:none;
 }
+
