@@ -34,6 +34,12 @@
 .blog-time {
   font-style:italic;
 }
+
 .paragraph{
+  max-width:960px;
+  margin : 0 auto;
+}
+.paragraph div{
+  
   padding: 1.2rem;
 }
