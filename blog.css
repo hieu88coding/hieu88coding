@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Quicksand:wght@300;400;500&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap');
+
+:root {
+  --Playfair:'Playfair Display', serif;
+  --Quicksand : 'Quicksand', sans-serif;
+  --Roboto :'Roboto', sans-serif;
+  --dark  #737373;
+}
+
+.container{
+  max-width : 1320 px;
+  margin :0 auto;
+  padding : 0 1.2rem;
+}
+
+
+.blog-img img{
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
