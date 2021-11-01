@@ -15,6 +15,8 @@
 
 
 .blog-img img{
+  max-width:960px;
+  max-height:480px;
   display:block;
   margin:0 auto;
 }
@@ -27,4 +29,11 @@
   font-style:italic;
   margin :1.2rem;
   text-align:center;
+}
+
+.blog-time {
+  font-style:italic;
+}
+.paragraph{
+  padding: 1.2rem;
 }
