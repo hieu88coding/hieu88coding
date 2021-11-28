@@ -26,7 +26,7 @@ body{
 
 header{
   min-height : 50vh;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://c.wallhere.com/photos/d8/3d/cat_animals-224744.jpg!d) center/ cover no-repeat fixed;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg) center/ cover no-repeat fixed;
   display : block;
   flex direction : column;
   justify-content: stretch;
@@ -67,6 +67,7 @@ header{
 }
 
 .blogname{
+  margin: 20px;
   font-family: var(--Playfair);
   display: block;
   text-align: center;
@@ -75,13 +76,13 @@ header{
 .question{
   display:block;
   text-align: center;
-  margin: 60px 0 20px 0;
+  margin: 90px 0 20px 0;
   padding: 10px;
 }
 
 .question span{
   font-family: var(--Playfair);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   word-spacing: 2px;
 }
 
