@@ -14,6 +14,10 @@
 }
 
 
+.blog{
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://cdn.wallpapersafari.com/8/81/3ZPS9q.png) center/ cover no-repeat fixed;
+}
+
 .blog-img img{
   max-width:960px;
   max-height:480px;
