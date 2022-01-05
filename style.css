@@ -1,237 +1,230 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Quicksand:wght@300;400;500&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Quicksand:wght@300;400;500&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
 
 :root {
-  --Playfair:'Playfair Display', serif;
-  --Quicksand : 'Quicksand', sans-serif;
-  --Roboto :'Roboto', sans-serif;
-  --dark  #737373;
+  --Playfair: "Playfair Display", serif;
+  --Quicksand: "Quicksand", sans-serif;
+  --Roboto: "Roboto", sans-serif;
 }
 
-body{
-  line-height : 1.4;
-  position:relative;
+body {
+  line-height: 1.4;
+  position: relative;
 }
 
-*{
-  padding :0;
-  margin :0;
+* {
+  padding: 0;
+  margin: 0;
   font-family: var(--Quicksand);
 }
 
-.container{
-  max-width : 1320 px;
-  margin :0 auto;
-  padding : 0 1.2rem;
+.container {
+  max-width: 1320 px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
 }
 
-header{
-  min-height : 50vh;
-  background: linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.4)), url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg) center/ cover no-repeat fixed;
-  display : block;
-  flex direction : column;
+header {
+  min-height: 50vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
+      center/ cover no-repeat fixed;
+  display: block;
+  flex-direction: column;
   justify-content: stretch;
 }
 
-
-.navbar{
-  background: rgba(0,0,0,0.6);
-  padding : 1.2rem;
-  
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.2rem;
 }
 
-.navbar-nav{
+.navbar-nav {
   padding: 0.8rem 0 0.2rem 0;
-  text-align : center;
-  
-}
-
-.navbar-nav a{
-  margin: 2.5px;
-  text-transform: uppercase;
-  font-family : var(--Roboto);
-  letter-spacing: 1px;
-  color: #f0f8ff;
-  text-decoration : none;
-  display :inline-block;
-  padding : 0.4rem 0.1rem;
-  transition : opacity 0.5s ease;
-}
-
-.brand{
-  display: block;
-  font-size :1.5rem;
-  font-family: var(--Playfair);
-  line-height:1.;
-  color : #f0f8ff;
   text-align: center;
 }
 
-.blogname{
+.navbar-nav a {
+  margin: 2.5px;
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+  letter-spacing: 1px;
+  color: #f0f8ff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.4rem 0.1rem;
+  transition: opacity 0.5s ease;
+}
+
+.brand {
+  display: block;
+  font-size: 1.5rem;
+  font-family: var(--Playfair);
+  line-height: 1;
+  color: #f0f8ff;
+  text-align: center;
+}
+
+.blogname {
   margin: 20px;
   font-family: var(--Playfair);
   display: block;
   text-align: center;
 }
 
-.question{
-  display:block;
+.question {
+  display: block;
   text-align: center;
   margin: 90px 0 20px 0;
   padding: 10px;
 }
 
-.question span{
+.question span {
   font-family: var(--Playfair);
   font-size: 1.5rem;
   word-spacing: 2px;
 }
 
-.question select{
+.question select {
   border-radius: 2rem;
   padding: 0.6rem 0.5rem;
   width: 210px;
   cursor: pointer;
 }
 
-.design{
-  padding : 4.5rem 0;
+.design {
+  padding: 4.5rem 0;
 }
 
-.title{
+.title {
   text-align: center;
-  padding:1.2rem;
+  padding: 1.2rem;
 }
 
-.title h2{
+.title h2 {
   font-family: var(--Playfair);
-  font-size:2.4rem;
+  font-size: 2.4rem;
 }
 
-.title p{
-  text-transform : uppercase;
-  padding :0.6rem 0;
+.title p {
+  text-transform: uppercase;
+  padding: 0.6rem 0;
 }
 
-.design-content{
+.design-content {
   margin: 2rem 0;
 }
 
-.design-item{
+.design-item {
   cursor: pointer;
   margin: 1.5rem 0;
 }
 
-.design-img{
-  max-width:960px;
-  max-height:480px;
+.design-img {
+  max-width: 960px;
+  max-height: 480px;
   margin: 0 auto;
-  position:relative;
-  overflow:hidden;
+  position: relative;
+  overflow: hidden;
 }
 
-.design-img::after{
+.design-img::after {
   position: absolute;
-  content :" ";
-  top : 0;
-  left :0;
+  content: " ";
+  top: 0;
+  left: 0;
 }
 
-.design-img img{
+.design-img img {
   transition: all 0.5s ease;
 }
 
-.design-item :hover img{
-  transform:scale(1.2);
+.design-item :hover img {
+  transform: scale(1.2);
 }
 
-.design-title{
-  padding :1rem;
-  font-size:1.2rem;
+.design-title {
+  padding: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   margin: 0 auto;
 }
 
-.design-title a{
-  color : var(--dark);
-  text-decoration :none;
-}
-
-
-
-footer{
-  background: rgba(0, 0, 0,0.6);
-  padding: 1.5rem 0;
-  bottom:0;
-}
-
-.social-links{
-  display:flex;
-  justify-content:center;
-  margin-bottom:1.4rem;
-}
-
-.social-links a{
-  border: 2.0px solid #f0f8ff;
-  color: #f0f8ff;
-  display:flex;
-  width:60px;
-  height:60px;
-  border-radius:50%;
-  justify-content: center;
-  align-items:center;
+.design-title a {
+  color: var(--dark);
   text-decoration: none;
-  margin:0 0.3rem;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem 0;
+  bottom: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+
+.social-links a {
+  border: 2px solid #f0f8ff;
+  color: #f0f8ff;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 0.3rem;
   transition: all 0.5s ease;
 }
-
 
 .avatar {
   position: relative;
 }
 
-.avatar img{
-  width : 300px;
+.avatar img {
+  width: 300px;
   height: 300px;
 }
 
 .noidung {
-  max-width : 1236px;
+  max-width: 1236px;
   margin: -310px 21px 0 336px;
-  top :0px;
-  
+  top: 0px;
 }
 
-h3{
-  margin-top:1.2rem;
+h3 {
+  margin-top: 1.2rem;
 }
 
-.h3content{
-  padding:1.2rem;
+.h3content {
+  padding: 1.2rem;
   font-size: 20px;
 }
 
-.h3content img{
-  width :1200px;
-  height:720px;
-  margin-top:1.2rem;
-  margin-bottom:0.5rem;
+.h3content img {
+  width: 1200px;
+  height: 720px;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
-.h3content i{
+.h3content i {
   border: 1.2px solid white;
-  margin:0 181px 0 422px;
+  margin: 0 181px 0 422px;
 }
-.design-list{
-  font-size:20px;
-  text-align:center;
+.design-list {
+  font-size: 20px;
+  text-align: center;
 }
 
-.list{
-  padding :0;
+.list {
+  padding: 0;
   margin: 10px;
 }
 
-.list a{
-  text-decoration:none;
+.list a {
+  text-decoration: none;
 }
-
