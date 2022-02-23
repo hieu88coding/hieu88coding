@@ -20,4 +20,4 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&ap
  .catch(err => alert("Wrong City Name!"))
 })
 
-if
+if(tempValue)
