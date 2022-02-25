@@ -2,7 +2,7 @@ var button = document.querySelector('.button');
 var inputValue = document.querySelector('.inputValue');
 var cityName =document.querySelector('.name');
 var desc =document.querySelector('.desc');
-var temp =document.querySelector('.temp');
+var temp =document.querySelector('.numb');
 
 
 
