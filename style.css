@@ -71,6 +71,13 @@ header {
   text-align: center;
 }
 
+.weather {
+  text-align: center;
+  font-size: 21px;
+  width: 300px;
+  height: 30px;
+}
+
 .question {
   display: block;
   text-align: center;
