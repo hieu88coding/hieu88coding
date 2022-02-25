@@ -3,6 +3,8 @@ var inputValue = document.querySelector('.inputValue');
 var cityName =document.querySelector('.name');
 var desc =document.querySelector('.desc');
 var temp =document.querySelector('.temp');
+var span =document.querySelector('span');
+
 
 button.addEventListener('click', function(){
 fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=f922718fb7a613d97b21653c8649e105')
@@ -13,8 +15,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&un
      var tempValue = data['main']['temp'];
 
      cityName.innerHTML =nameValue;
-     temp.innerHTML =tempValue '&#8451';
+     temp.innerHTML =tempValue;
      desc.innerHTML =descValue;
+     span.innerHTML ='&#8451';
  })
 
  .catch(err => alert("Wrong City Name!"))
