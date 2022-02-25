@@ -9,8 +9,8 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&ap
  .then(response => response.json())
  .then(data => {
      var nameValue =data['name'];
-     var tempValue = data['main']['temp']-273.15;
      var descValue = data['weather'][0]['description'];
+     var tempValue = data['main']['temp'];
 
      cityName.innerHTML =nameValue;
      temp.innerHTML =tempValue;
