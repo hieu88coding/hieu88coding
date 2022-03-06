@@ -5,13 +5,26 @@ var cityName =document.querySelector('.name');
 var desc =document.querySelector('.desc');
 const temp =document.querySelector('.temp .numb');
 
+let api;
 
 
-button.addEventListener('click',function(){
-fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=f922718fb7a613d97b21653c8649e105')
- .then(response => response.json())
- .then(data => weatherDetails(data))
-});
+inputValue.addEventListener("keyup", e =>{
+    if(e.key == "Enter" && inputValue.value != ""){
+        requestApi(inputValue.value);
+    }
+}); 
+
+function requestApi(bruh){
+  api ="https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=f922718fb7a613d97b21653c8649e105";
+  fetchData(bruh);
+}
+
+function fetchData(){
+  fetch(api)
+    .then(res => res.json())
+    .then(result => weatherDetails(result));
+}
+
 
 function weatherDetails(info){
   if(info.cod =="404"){
