@@ -14,7 +14,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&un
      var descValue = data['weather'][0]['description'];
      var tempValue = data['main']['temp'];
 
-     cityName.innerHTML =nameValue;
+     cityName.innertext =nameValue;
      temp.innerHTML =tempValue;
      desc.innerHTML =descValue;
  })
