@@ -16,7 +16,7 @@ inputField.addEventListener("keyup", e =>{
 }); 
 
 function requestApi(city){
-  api =`https://api.openweathermap.org/data/2.5/weather?q='${city}'&units=metric&appid=f922718fb7a613d97b21653c8649e105`;
+  api =`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=f922718fb7a613d97b21653c8649e105`;
   fetchData();
 }
 
@@ -40,7 +40,7 @@ function weatherDetails(info){
     
     document.querySelector('.location span').innerText =`${city}, ${country}`;
     
-    document.querySelector('.desc').innerText =description;
+    document.querySelector('.desc span').innerText =description;
     
     document.querySelector('.humidity span ').innerText =`${humidity}%`;
     
