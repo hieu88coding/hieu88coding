@@ -254,3 +254,9 @@ h3 {
 .list a {
   text-decoration: none;
 }
+
+
+#new-weather{
+  color:red;
+  font-style:italic;
+}

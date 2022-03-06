@@ -9,6 +9,7 @@ var wIcon =wrapper.querySelector('img');
 const blogname =document.querySelector('.blogname');
 var feeling =document.getElementById('new-weather');
 
+
 let api;
 
 
@@ -79,12 +80,8 @@ function weatherDetails(info){
 
 function add_Child(name){
   var newNode = document.createTextNode(name);
-  var x =feeling.appendChild(newNode);
-  return x;
-}
-function coloring(name){
-  add_Child(name).style.color ="red";
-  return
+  feeling.appendChild(newNode);
+  return feeling;
 }
 
 
