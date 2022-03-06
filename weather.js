@@ -1,7 +1,7 @@
 const wrapper =document.querySelector('.wrapper');
 var inputPart =document.querySelector('.input-part');
 var button = document.querySelector('.button');
-var inputField = inputPart.querySelector('.input input');
+var inputField = inputPart.querySelector('input');
 var cityName =document.querySelector('.name');
 var desc =document.querySelector('.desc');
 const temp =document.querySelector('.temp .numb');
@@ -11,19 +11,19 @@ let api;
 
 inputField.addEventListener("keyup", e =>{
     if(e.key == "Enter" && inputField.value != ""){
-        requestApi(inputValue.value);
+        requestApi(inputField.value);
     }
 }); 
 
 function requestApi(city){
-  api =`https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=f922718fb7a613d97b21653c8649e105`;
+  api =`https://api.openweathermap.org/data/2.5/weather?q='${city}'&units=metric&appid=f922718fb7a613d97b21653c8649e105`;
   fetchData();
 }
 
 function fetchData(){
   fetch(api)
     .then(res => res.json())
-    .then(result => weatherDetails(result))
+    .then(result => weatherDetails(result));
 }
 
 
@@ -45,7 +45,7 @@ function weatherDetails(info){
     document.querySelector('.humidity span ').innerText =`${humidity}%`;
     
     wrapper.classList.add("active");
-    inputValue.value = ""
+    inputField.value = ""
     
     
   }
