@@ -103,7 +103,7 @@ input[type ="text"]{
 }
 
 .wrapper .display-part{
-  /*display: none;*/
+  display: none;
 }
 .wrapper.active .display-part{
   text-align:left;
