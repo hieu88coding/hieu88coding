@@ -4,6 +4,7 @@ var inputField = inputPart.querySelector('input');
 var desc =document.querySelector('.desc');
 var arrowBack = wrapper.querySelector(".arrow i");
 var wIcon =wrapper.querySelector('img');
+const blogname =document.querySelector('blogname');
 
 let api;
 
@@ -58,7 +59,8 @@ function weatherDetails(info){
     document.querySelector('.humidity .head ').innerText =`${humidity}%`;
     
     wrapper.classList.add("active");
-    inputField.value = ""
+    inputField.value = "";
+    blogname.classList.add("active");
     
     
   }

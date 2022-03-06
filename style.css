@@ -72,7 +72,7 @@ header {
   text-align: center;
 }
 
-.blogname .active{
+.blogname.active{
   display:none;
 }
 
@@ -109,8 +109,12 @@ input[type ="text"]{
   text-align:left;
   display: flex;
   margin-left:50px;
+  margin-top:100px;
   flex-direction: column;
   
+}
+.wrapper.active .display-part i{
+  color: ;
 }
 
 .design {
