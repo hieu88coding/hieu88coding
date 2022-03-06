@@ -93,6 +93,9 @@ input[type ="submit"]{
 .display{
   text-align:center;
 }
+.degree{
+  display : none;
+}
 
 .question {
   display: block;

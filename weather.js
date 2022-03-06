@@ -19,6 +19,6 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&un
      desc.innerHTML =descValue;
  })
 
- .catch(err => alert("Wrong City Name!"))
+ .catch(err => alert("Sai tên thành phố rùi bạn ei :))"))
 })
 
