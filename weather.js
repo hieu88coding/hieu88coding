@@ -2,7 +2,7 @@ var button = document.querySelector('.button');
 var inputValue = document.querySelector('.inputValue');
 var cityName =document.querySelector('.name');
 var desc =document.querySelector('.desc');
-//var temp =document.querySelector('.temp .numb');
+const temp =document.querySelector('.temp .numb');
 
 
 
@@ -21,7 +21,14 @@ function weatherDetails(info){
     const {desc,id} =info.weather[0];
     const {humidity, temp} =info.main;
     
-    temp.innerText =temp;
+    document.querySelector('.temp .numb').innerText =temp;
+    
+    document.querySelector('.location span').innerText ='${city}, ${country}';
+    
+    document.querySelector('.desc').innerText ="${desc}";
+    
+    document.querySelector('.humidity span ').innerText ="${humidity}";
+    
   }
 }
 
