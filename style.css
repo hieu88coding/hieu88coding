@@ -93,9 +93,6 @@ input[type ="submit"]{
 .display{
   text-align:center;
 }
-.display-part{
-  display : none;
-}
 
 .question {
   display: block;
