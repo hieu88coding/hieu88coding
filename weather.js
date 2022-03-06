@@ -1,6 +1,6 @@
-const wrapper =document.quẻySelector('.wrapper');
+const wrapper =document.querySelector('.wrapper');
 var button = document.querySelector('.button');
-var inputValue = document.querySelector('.inputValue');
+var inputValue = document.querySelector('input');
 var cityName =document.querySelector('.name');
 var desc =document.querySelector('.desc');
 const temp =document.querySelector('.temp .numb');
@@ -14,21 +14,21 @@ inputValue.addEventListener("keyup", e =>{
     }
 }); 
 
-function requestApi(bruh){
-  api ="https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=f922718fb7a613d97b21653c8649e105";
-  fetchData(bruh);
+function requestApi(city){
+  api =`https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=f922718fb7a613d97b21653c8649e105`;
+  fetchData();
 }
 
 function fetchData(){
   fetch(api)
     .then(res => res.json())
-    .then(result => weatherDetails(result));
+    .then(result => weatherDetails(result))
 }
 
 
 function weatherDetails(info){
   if(info.cod =="404"){
-    alert("Sai tên thành phố tùi bạn ơi :))");
+    alert("Sai tên thành phố rùi bạn ơi :))");
   }else{
     const city = info.name;
     const country= info.sys.country;
