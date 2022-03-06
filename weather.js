@@ -5,6 +5,7 @@ var desc =document.querySelector('.desc');
 var arrowBack = wrapper.querySelector(".arrow i");
 var wIcon =wrapper.querySelector('img');
 const blogname =document.querySelector('blogname');
+var feeling =document.getElementById('new-weather');
 
 let api;
 
@@ -65,6 +66,8 @@ function weatherDetails(info){
     
   }
 }
+
+function add_Child()
 
 arrowBack.addEventListener("click", ()=>{
     wrapper.classList.remove("active");
