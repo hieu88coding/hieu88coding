@@ -17,17 +17,17 @@ function weatherDetails(info){
     alert("Sai tên thành phố tùi bạn ơi :))");
   }else{
     const city = info.name;
-    const country= info.sys.name;
-    const {desc,id} =info.weather[0];
+    const country= info.sys.country;
+    const {description,id} =info.weather[0];
     const {humidity, temp} =info.main;
     
     document.querySelector('.temp .numb').innerText =temp;
     
-    document.querySelector('.location span').innerText ='${city}, ${country}';
+    document.querySelector('.location span').innerText =`${city}, ${country}`;
     
-    document.querySelector('.desc').innerText ="${desc}";
+    document.querySelector('.desc').innerText =description;
     
-    document.querySelector('.humidity span ').innerText ="${humidity}";
+    document.querySelector('.humidity span ').innerText =`${humidity}%`;
     
   }
 }
