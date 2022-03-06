@@ -39,20 +39,22 @@ function weatherDetails(info){
     
     if(id == 800){
             wIcon.src = "icons/clear.svg";
-            //feeling.appendChild("Trời quang mây tạnh");
+            add_Child("Trời quang mây tạnh")
         }else if(id >= 200 && id <= 232){
             wIcon.src = "icons/storm.svg";
-            //feeling.appendChild("Mưa bão");
+            add_Child("Mưa gió bão bùng")
         }else if(id >= 600 && id <= 622){
             wIcon.src = "icons/snow.svg";
         }else if(id >= 701 && id <= 781){
             wIcon.src = "icons/haze.svg";
+          add_Child("Khói tỏa mùa sương")
         }else if(id >= 801 && id <= 804){
             wIcon.src = "icons/cloud.svg";
-            //feeling.appendChild("Nhiều mây");
+            add_Child("Mây mer cùng hater")
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
             wIcon.src = "icons/rain.svg";
-            //feeling.appendChild("Mưa lạnh");
+            add_Child("Mưa lạnh")
+            
         }
     
     document.querySelector('.temp .numb').innerText =temp;
@@ -65,14 +67,15 @@ function weatherDetails(info){
     
     wrapper.classList.add("active");
     inputField.value = "";
-    //blogname.classList.add("active");
+    blogname.classList.add("active");
     
     
   }
 }
 
 function add_Child(name){
-  var 
+  var newNode = document.createTextNode(name);
+  feeling.appendChild(newNode);
 }
 
 
