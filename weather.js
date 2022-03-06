@@ -9,16 +9,12 @@ var temp =document.querySelector('.numb');
 button.addEventListener('click', function(){
 fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=f922718fb7a613d97b21653c8649e105')
  .then(response => response.json())
- .then(data => {
-     var nameValue =data['name'];
-     var descValue = data['weather'][0]['description'];
-     var tempValue = data['main']['temp'];
+ .then(data => weatherDetails(data))
+});
 
-     cityName.innertext =nameValue;
-     temp.innerHTML =tempValue;
-     desc.innerHTML =descValue;
- })
-
- .catch(err => alert("Sai tên thành phố rùi bạn ei :))"))
-})
+function weatherDetails(info){
+  if(info.cod =="404"){
+    
+  }
+}
 
