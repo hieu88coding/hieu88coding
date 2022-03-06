@@ -1,3 +1,4 @@
+const wrapper =document.quẻySelector('.wrapper');
 var button = document.querySelector('.button');
 var inputValue = document.querySelector('.inputValue');
 var cityName =document.querySelector('.name');
@@ -6,7 +7,7 @@ const temp =document.querySelector('.temp .numb');
 
 
 
-button.addEventListener('click', function(){
+button.addEventListener('click',function(){
 fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=f922718fb7a613d97b21653c8649e105')
  .then(response => response.json())
  .then(data => weatherDetails(data))
@@ -28,6 +29,8 @@ function weatherDetails(info){
     document.querySelector('.desc').innerText =description;
     
     document.querySelector('.humidity span ').innerText =`${humidity}%`;
+    
+    wrapper.classList.add("active");
     
   }
 }
