@@ -1,6 +1,7 @@
 const wrapper =document.querySelector('.wrapper');
+var inputPart =document.querySelector('.input-part');
 var button = document.querySelector('.button');
-var inputValue = document.querySelector('input');
+var inputField = inputPart.querySelector('.input input');
 var cityName =document.querySelector('.name');
 var desc =document.querySelector('.desc');
 const temp =document.querySelector('.temp .numb');
@@ -8,8 +9,8 @@ const temp =document.querySelector('.temp .numb');
 let api;
 
 
-inputValue.addEventListener("keyup", e =>{
-    if(e.key == "Enter" && inputValue.value != ""){
+inputField.addEventListener("keyup", e =>{
+    if(e.key == "Enter" && inputField.value != ""){
         requestApi(inputValue.value);
     }
 }); 
@@ -44,6 +45,8 @@ function weatherDetails(info){
     document.querySelector('.humidity span ').innerText =`${humidity}%`;
     
     wrapper.classList.add("active");
+    inputValue.value = ""
+    
     
   }
 }
