@@ -51,11 +51,11 @@ function weatherDetails(info){
     
     document.querySelector('.temp .numb').innerText =temp;
     
-    document.querySelector('.location span').innerText =`${city}, ${country}`;
+    document.querySelector('.location .head').innerText =`${city}, ${country}`;
     
-    document.querySelector('.desc span').innerText =description;
+    document.querySelector('.desc .head').innerText =description;
     
-    document.querySelector('.humidity span ').innerText =`${humidity}%`;
+    document.querySelector('.humidity .head ').innerText =`${humidity}%`;
     
     wrapper.classList.add("active");
     inputField.value = ""

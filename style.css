@@ -83,7 +83,9 @@ input[type ="text"]{
   margin: 0 auto;
 }
 
-
+.display {
+  font-size: 28px;
+}
 
 
 
