@@ -5,6 +5,7 @@ var inputField = inputPart.querySelector('input');
 var cityName =document.querySelector('.name');
 var desc =document.querySelector('.desc');
 const temp =document.querySelector('.temp .numb');
+var arrowBack = wrapper.querySelector(".arrow i");
 
 let api;
 
@@ -50,4 +51,8 @@ function weatherDetails(info){
     
   }
 }
+
+arrowBack.addEventListener("click", ()=>{
+    wrapper.classList.remove("active");
+});
 
