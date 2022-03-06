@@ -3,6 +3,7 @@ var inputPart =document.querySelector('.input-part');
 var inputField = inputPart.querySelector('input');
 var desc =document.querySelector('.desc');
 var arrow =document.querySelector('.arrow');
+var arrow_span =document.querySelector('.arrow span');
 var arrowBack = wrapper.querySelector(".arrow i");
 var wIcon =wrapper.querySelector('img');
 const blogname =document.querySelector('.blogname');
@@ -70,7 +71,7 @@ function weatherDetails(info){
     inputField.value = "";
     blogname.classList.add("active");
     var p = document.createTextNode("Quay lại");
-    var 
+    arrow.replaceChild(p,arrow_span);
     
     
   }
@@ -80,6 +81,8 @@ function add_Child(name){
   var newNode = document.createTextNode(name);
   feeling.appendChild(newNode);
 }
+
+
 
 
 
