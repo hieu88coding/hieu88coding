@@ -79,7 +79,12 @@ function weatherDetails(info){
 
 function add_Child(name){
   var newNode = document.createTextNode(name);
-  feeling.appendChild(newNode);
+  var x =feeling.appendChild(newNode);
+  return x;
+}
+function coloring(name){
+  add_Child(name).style.color ="red";
+  return
 }
 
 
