@@ -72,6 +72,10 @@ header {
   text-align: center;
 }
 
+.blogname .active{
+  display:none;
+}
+
 input[type ="text"]{
   display:block;
   font-size: 20px;
@@ -85,6 +89,7 @@ input[type ="text"]{
 
 .display {
   font-size: 28px;
+  text-align:left;
 }
 
 
@@ -99,13 +104,13 @@ input[type ="text"]{
 
 .wrapper .display-part{
   /*display: none;*/
-  margin: 30px 0 0;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 .wrapper.active .display-part{
+  text-align:left;
   display: flex;
+  margin-left:50px;
+  flex-direction: column;
+  
 }
 
 .design {
