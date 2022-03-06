@@ -1,11 +1,9 @@
 const wrapper =document.querySelector('.wrapper');
 var inputPart =document.querySelector('.input-part');
-var button = document.querySelector('.button');
 var inputField = inputPart.querySelector('input');
-var cityName =document.querySelector('.name');
 var desc =document.querySelector('.desc');
-const temp =document.querySelector('.temp .numb');
 var arrowBack = wrapper.querySelector(".arrow i");
+var wIcon =wrapper.querySelector('img');
 
 let api;
 
@@ -36,6 +34,20 @@ function weatherDetails(info){
     const country= info.sys.country;
     const {description,id} =info.weather[0];
     const {humidity, temp} =info.main;
+    
+    if(id == 800){
+            wIcon.src = "icons/clear.svg";
+        }else if(id >= 200 && id <= 232){
+            wIcon.src = "icons/storm.svg";  
+        }else if(id >= 600 && id <= 622){
+            wIcon.src = "icons/snow.svg";
+        }else if(id >= 701 && id <= 781){
+            wIcon.src = "icons/haze.svg";
+        }else if(id >= 801 && id <= 804){
+            wIcon.src = "icons/cloud.svg";
+        }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
+            wIcon.src = "icons/rain.svg";
+        }
     
     document.querySelector('.temp .numb').innerText =temp;
     
