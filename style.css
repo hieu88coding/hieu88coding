@@ -94,10 +94,6 @@ input[type ="submit"]{
   text-align:center;
 }
 
-.wrapper .active .input-part{
-  display: none;
-}
-
 .wrapper .display-part{
   display:none;
 }
