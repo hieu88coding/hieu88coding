@@ -2,9 +2,10 @@ const wrapper =document.querySelector('.wrapper');
 var inputPart =document.querySelector('.input-part');
 var inputField = inputPart.querySelector('input');
 var desc =document.querySelector('.desc');
+var arrow =document.querySelector('.arrow');
 var arrowBack = wrapper.querySelector(".arrow i");
 var wIcon =wrapper.querySelector('img');
-const blogname =document.querySelector('blogname');
+const blogname =document.querySelector('.blogname');
 var feeling =document.getElementById('new-weather');
 
 let api;
@@ -68,6 +69,8 @@ function weatherDetails(info){
     wrapper.classList.add("active");
     inputField.value = "";
     blogname.classList.add("active");
+    var p = document.createTextNode("Quay lại");
+    var 
     
     
   }
