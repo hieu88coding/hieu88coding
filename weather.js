@@ -7,7 +7,7 @@ var arrow_span =document.querySelector('.arrow span');
 var arrowBack = wrapper.querySelector(".arrow i");
 var wIcon =wrapper.querySelector('img');
 const blogname =document.querySelector('.blogname');
-var feeling =document.getElementById('new-weather');
+var new_weather =document.getElementById('new-weather');
 
 
 let api;
@@ -42,21 +42,21 @@ function weatherDetails(info){
     
     if(id == 800){
             wIcon.src = "icons/clear.svg";
-            add_Child(feeling,"Trời quang mây tạnh.")
+            add_Child(new_weather,"Trời quang mây tạnh.")
         }else if(id >= 200 && id <= 232){
             wIcon.src = "icons/storm.svg";
-            add_Child(feeling,"Mưa gió bão bùng.")
+            add_Child(new_weather,"Mưa gió bão bùng.")
         }else if(id >= 600 && id <= 622){
             wIcon.src = "icons/snow.svg";
         }else if(id >= 701 && id <= 781){
             wIcon.src = "icons/haze.svg";
-          add_Child(feeling,"Khói tỏa mùa sương.")
+          add_Child(new_weather,"Khói tỏa mùa sương.")
         }else if(id >= 801 && id <= 804){
             wIcon.src = "icons/cloud.svg";
-            add_Child(feeling,"Mây mer~~")
+            add_Child(new_weather,"Mây mer~~")
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
             wIcon.src = "icons/rain.svg";
-            add_Child(feeling,"Mưa lạnh.")
+            add_Child(new_weather,"Mưa lạnh.")
             
         }
     
