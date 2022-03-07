@@ -78,7 +78,7 @@ function weatherDetails(info){
     inputField.value = "";
     blogname.classList.add("active");
     var p = document.createTextNode("Quay lại");
-    arrow.replaceChild(p,arrow_span);
+    //arrow.replaceChild(p,arrow_span);
     
     
   }

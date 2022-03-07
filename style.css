@@ -92,6 +92,11 @@ input[type ="text"]{
   text-align:left;
 }
 
+.wrapper.active .arrow i{
+  margin-left: 5px;
+  font-size: 30px;
+}
+
 
 
 
