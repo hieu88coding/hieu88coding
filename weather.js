@@ -44,17 +44,17 @@ function weatherDetails(info){
     if(id == 800){
             wIcon.src = "icons/clear.svg";
             add_Text(new_weather,"Trời quang mây tạnh.")
-            //add_Child(music_feel,)
+            add_Links(music_feel,"nhạc chill","https://www.youtube.com/playlist?list=PLYi2OL7Hp1baKrDEy8GzXVhonwdS6hbpk")
         }else if(id >= 200 && id <= 232){
             wIcon.src = "icons/storm.svg";
             add_Text(new_weather,"Mưa gió bão bùng.")
-            //add_Child(music_feel,"tình")
+            add_Links(music_feel,"piano thư giãn", "https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbtOYUBi1sDg3PpHvzjT4GE")
         }else if(id >= 600 && id <= 622){
             wIcon.src = "icons/snow.svg";
         }else if(id >= 701 && id <= 781){
             wIcon.src = "icons/haze.svg";
             add_Text(new_weather,"Khói tỏa mùa sương.")
-            //add_Child(music_feel,"tình")
+            add_Links(music_feel,"nhạc tình", "https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbWR6EZZx8tC8MBJLGcQ4-Y")
         }else if(id >= 801 && id <= 804){
             wIcon.src = "icons/cloud.svg";
             add_Text(new_weather,"Mây mer~~")
@@ -62,7 +62,7 @@ function weatherDetails(info){
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
             wIcon.src = "icons/rain.svg";
             add_Text(new_weather,"Mưa lạnh.")
-            //add_Child(music_feel,"buồn") 
+            add_Links(music_feel,"nhạc sầuuu","https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbB0Ccjh8xz0uVjwB1c4Vsg") 
             
         }
     
@@ -91,10 +91,8 @@ function add_Text(vari,name){
 }
 
 function add_Links(vari,name,links){
-  var str =name;
-  var newNode =str.link(links);
-  vari.appendChild(newNode);
-  return vari;
+  var newNode =name.link(links);
+  vari.innerHTML =newNode;
 }
 
 
