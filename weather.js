@@ -13,6 +13,8 @@ var music_feel =document.getElementById('music_feel');
 
 let api;
 
+var p = document.createTextNode("Quay lại");
+
 
 inputField.addEventListener("keyup", e =>{
     if(e.key == "Enter" && inputField.value != ""){
@@ -77,8 +79,7 @@ function weatherDetails(info){
     wrapper.classList.add("active");
     inputField.value = "";
     blogname.classList.add("active");
-    var p = document.createTextNode("Quay lại");
-    //arrow.replaceChild(p,arrow_span);
+    arrow.replaceChild(p,arrow_span);
     
     
   }
@@ -101,5 +102,6 @@ function add_Links(vari,name,links){
 
 arrowBack.addEventListener("click", ()=>{
     wrapper.classList.remove("active");
+    arrow.replaceChild(arrow_span,p);
 });
 
