@@ -8,6 +8,7 @@ var arrowBack = wrapper.querySelector(".arrow i");
 var wIcon =wrapper.querySelector('img');
 const blogname =document.querySelector('.blogname');
 var new_weather =document.getElementById('new-weather');
+var music_feel =document.getElementById('music_feel');
 
 
 let api;
@@ -43,20 +44,25 @@ function weatherDetails(info){
     if(id == 800){
             wIcon.src = "icons/clear.svg";
             add_Child(new_weather,"Trời quang mây tạnh.")
+            add_Child(music_feel,"chill")
         }else if(id >= 200 && id <= 232){
             wIcon.src = "icons/storm.svg";
             add_Child(new_weather,"Mưa gió bão bùng.")
+            add_Child(music_feel,"tình")
         }else if(id >= 600 && id <= 622){
             wIcon.src = "icons/snow.svg";
         }else if(id >= 701 && id <= 781){
             wIcon.src = "icons/haze.svg";
-          add_Child(new_weather,"Khói tỏa mùa sương.")
+            add_Child(new_weather,"Khói tỏa mùa sương.")
+            add_Child(music_feel,"tình")
         }else if(id >= 801 && id <= 804){
             wIcon.src = "icons/cloud.svg";
             add_Child(new_weather,"Mây mer~~")
+            add_Child(music_feel,"tình")
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
             wIcon.src = "icons/rain.svg";
             add_Child(new_weather,"Mưa lạnh.")
+            add_Child(music_feel,"buồn") 
             
         }
     
