@@ -16,6 +16,7 @@ let api;
 var p = document.createTextNode("Quay lại");
 
 
+
 inputField.addEventListener("keyup", e =>{
     if(e.key == "Enter" && inputField.value != ""){
         requestApi(inputField.value);
@@ -95,6 +96,7 @@ function add_Links(vari,name,links){
   var newNode =name.link(links);
   vari.innerHTML =newNode;
 }
+
 
 
 
