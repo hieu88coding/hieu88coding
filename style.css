@@ -141,8 +141,13 @@ input[type ="text"]{
  font-size:28px;
 }
 
-.feeling #music_feel{
-  color:#bfbfbf;
+#new-weather{
+  color:red;
+  font-style:italic;
+}
+
+#music_feel{
+  color:blue;
 }
 
 .design {
@@ -284,7 +289,3 @@ h3 {
 }
 
 
-#new-weather{
-  color:red;
-  font-style:italic;
-}
