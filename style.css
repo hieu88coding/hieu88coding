@@ -95,7 +95,7 @@ input[type ="text"]{
 .arrow{
   padding:0;
   font-size: 30px;
-  font-family: var(--Playfair);
+  font-style:var(--Playfair);
 }
 
 .wrapper .arrow i{
@@ -111,11 +111,6 @@ input[type ="text"]{
   margin-left: 50px;
   font-size:30px;
 }
-
-
-
-
-
 
 .wrapper .input-part{
   margin: 20px 25px 30px;
@@ -137,6 +132,10 @@ input[type ="text"]{
 }
 .wrapper.active .display-part i{
   color: ;
+}
+
+.feeling{
+  display:inline-block;
 }
 
 .design {
