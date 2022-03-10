@@ -95,6 +95,7 @@ function add_Text(vari,name){
 function add_Links(vari,name,links){
   var newNode =name.link(links);
   vari.innerHTML =newNode;
+  return vari;
 }
 
 
