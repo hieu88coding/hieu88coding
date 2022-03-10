@@ -93,9 +93,11 @@ function add_Text(vari,name){
 }
 
 function add_Links(vari,name,links){
-  var newNode =name.link(links);
-  vari.appendChild(newNode);
-  return vari;
+  var a=document.createElement('a');
+  var link =document.createTextNode(name);
+  a.appendChild(link);
+  a.href =links;
+  vari.appendChild(a);
 }
 
 

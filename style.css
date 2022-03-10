@@ -146,7 +146,7 @@ input[type ="text"]{
   font-style:italic;
 }
 
-#music_feel{
+#music_feel a{
   color:blue;
   text-decoration:none;
 }
