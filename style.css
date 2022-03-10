@@ -136,9 +136,13 @@ input[type ="text"]{
 }
 
 .feeling{
-  display:inline-block;
-  position:absolute;
-  margin:0 100px 0 20px;
+ position:absolute;
+ left:600px;
+ font-size:28px;
+}
+
+.feeling #music_feel{
+  color:#bfbfbf;
 }
 
 .design {
