@@ -98,7 +98,7 @@ input[type ="text"]{
   font-family:var(--Playfair);
 }
 
-.wrapper.active .arrow span{
+.wrapper.active .arrow .arrow_name{
   font-size: 30px;
   font-family:var(--Roboto);
 }

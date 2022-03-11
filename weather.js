@@ -13,6 +13,8 @@ var music_feel =document.getElementById('music_feel');
 let api;
 
 var p = document.createTextNode("Quay lại");
+var span =document.createTẽtNode("span");
+span.style.color ="red"
 
 
 
