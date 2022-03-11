@@ -93,9 +93,8 @@ input[type ="text"]{
   position:relative;
 }
 
-.arrow{
-  padding:0;
-  font-size: 30px;
+.wrrapper .arrow span{
+  font-size: 60px;
   font-style:var(--Playfair);
 }
 
