@@ -13,7 +13,7 @@ var music_feel =document.getElementById('music_feel');
 let api;
 
 var p = document.createTextNode("Quay lại");
-p.style.color ="blue";
+
 
 
 inputField.addEventListener("keyup", e =>{
@@ -99,18 +99,10 @@ function add_Links(vari,name,links){
   vari.appendChild(a);
 }
 
-function switching(vari1,vari2){
-  arrow.repalceChild(vari1,vari2);
-  return vari1;
-}
-
-
-
-
-
 
 arrowBack.addEventListener("click", ()=>{
     wrapper.classList.remove("active");
-    switching(arrow_span,p);
+    arrow.replaceChild(arrow_span,p);
+
 });
 
