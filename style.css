@@ -88,14 +88,19 @@ input[type ="text"]{
 }
 
 .display {
-  font-size: 28px;
+  font-size: 30px;
   text-align:left;
   position:relative;
 }
 
-.wrrapper .arrow span{
-  font-size: 60px;
-  font-style:var(--Playfair);
+.wrapper .arrow span{
+  font-size: 30px;
+  font-family:var(--Playfair);
+}
+
+.wrapper.active .arrow span{
+  font-size: 30px;
+  font-family:var(--Playfair);
 }
 
 .wrapper .arrow i{
@@ -129,9 +134,6 @@ input[type ="text"]{
   margin-top:100px;
   flex-direction: column;
   
-}
-.wrapper.active .display-part i{
-  color: ;
 }
 
 .feeling{
