@@ -10,7 +10,6 @@ const blogname =document.querySelector('.blogname');
 var new_weather =document.getElementById('new-weather');
 var music_feel =document.getElementById('music_feel');
 
-
 let api;
 
 var p = document.createTextNode("Quay lại");
