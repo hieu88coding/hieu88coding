@@ -99,6 +99,11 @@ function add_Links(vari,name,links){
   vari.appendChild(a);
 }
 
+function switching(vari1,vari2){
+  arrow.repalceChild(vari1,vari2);
+  return vari1;
+}
+
 
 
 
@@ -106,6 +111,6 @@ function add_Links(vari,name,links){
 
 arrowBack.addEventListener("click", ()=>{
     wrapper.classList.remove("active");
-    arrow.replaceChild(arrow_span,p);
+    switching(arrow_span,p);
 });
 

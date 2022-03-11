@@ -100,7 +100,7 @@ input[type ="text"]{
 
 .wrapper.active .arrow span{
   font-size: 30px;
-  font-family:var(--Playfair);
+  font-family:var(--Roboto);
 }
 
 .wrapper .arrow i{
