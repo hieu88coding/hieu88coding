@@ -25,7 +25,8 @@ body {
 }
 
 header {
-  min-height: 60vh;
+  height: 1080px;
+  width:1920px;
   background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
     url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
       center/ cover no-repeat fixed; 
