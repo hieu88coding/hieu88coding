@@ -122,6 +122,10 @@ input[type ="text"]{
   margin-left: 0;
   font-size:30px;
 }
+.head{
+  font-style: italic;
+  color:#A9A9A9;
+}
 
 .wrapper .input-part{
   margin: 20px 25px 30px;
@@ -139,6 +143,7 @@ input[type ="text"]{
   margin-left:50px;
   margin-top:100px;
   flex-direction: column;
+  transition-delay :5s;
   
 }
 
