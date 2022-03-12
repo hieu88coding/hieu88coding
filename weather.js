@@ -46,7 +46,7 @@ function weatherDetails(info){
     const {humidity, temp} =info.main;
     
     if(id == 800){
-            wIcon.style.background = " url('https://ak.picdn.net/shutterstock/videos/723256/thumb/1.jpg')";
+            wIcon.style.background = " url('https://res.allmacwallpaper.com/get/Retina-MacBook-Air-13-inch-wallpapers/clear-sky-5k-2560x1600/22549-11.jpg')";
             add_Text(new_weather,"Trời quang mây tạnh.")
             add_Links(music_feel,"nhạc chill","https://www.youtube.com/playlist?list=PLYi2OL7Hp1baKrDEy8GzXVhonwdS6hbpk")
         }else if(id >= 200 && id <= 232){
@@ -105,6 +105,6 @@ function add_Links(vari,name,links){
 arrowBack.addEventListener("click", ()=>{
     wrapper.classList.remove("active");
     arrow.replaceChild(arrow_span,p);
-
+    
 });
 
