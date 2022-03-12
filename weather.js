@@ -47,7 +47,7 @@ function weatherDetails(info){
     const {humidity, temp} =info.main;
     
     if(id == 800){
-            wIcon.style.background = " url('https://res.allmacwallpaper.com/get/Retina-MacBook-Air-13-inch-wallpapers/clear-sky-5k-2560x1600/22549-11.jpg')";
+            wIcon.style.background = " url('https://wallpaperaccess.com/full/478348.jpg')";
             add_Text(new_weather,"Trời quang mây tạnh.")
             add_Links(music_feel,"nhạc chill","https://www.youtube.com/playlist?list=PLYi2OL7Hp1baKrDEy8GzXVhonwdS6hbpk")
         }else if(id >= 200 && id <= 232){
@@ -61,11 +61,11 @@ function weatherDetails(info){
             add_Text(new_weather,"Khói tỏa mùa sương.")
             add_Links(music_feel,"nhạc tình", "https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbWR6EZZx8tC8MBJLGcQ4-Y")
         }else if(id >= 801 && id <= 804){
-            wIcon.style.background ="url('https://upload.wikimedia.org/wikipedia/commons/7/73/Cloudy_sky_%2826171935906%29.jpg')"
+            wIcon.style.background ="url('https://i.pinimg.com/originals/4b/40/6f/4b406f08d46ff55aebdb98071070684f.jpg')"
             add_Text(new_weather,"Mây mer~~")
             add_Links(music_feel,"nhạc tình","https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbWR6EZZx8tC8MBJLGcQ4-Y")
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
-            wIcon.src = "icons/rain.svg";
+            wIcon.style.background = "url('https://mocah.org/uploads/posts/4592057-makoto-shinkai-the-garden-of-words-summer-sunlight-rainbows-rain-pavements-anime.jpg')";
             add_Text(new_weather,"Mưa lạnh.")
             add_Links(music_feel,"nhạc sầuuu","https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbB0Ccjh8xz0uVjwB1c4Vsg") 
             
