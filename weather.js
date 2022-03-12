@@ -5,7 +5,7 @@ var desc =document.querySelector('.desc');
 var arrow =document.querySelector('.arrow');
 var arrow_span =document.querySelector('.arrow span');
 var arrowBack = wrapper.querySelector(".arrow i");
-var wIcon =coument.querySelector('header');
+var wIcon =document.querySelector('header');
 const blogname =document.querySelector('.blogname');
 var new_weather =document.getElementById('new-weather');
 var music_feel =document.getElementById('music_feel');
@@ -46,7 +46,7 @@ function weatherDetails(info){
     const {humidity, temp} =info.main;
     
     if(id == 800){
-            wIcon.src = "icons/clear.svg";
+            wIcon.style.background = " url('https://ak.picdn.net/shutterstock/videos/723256/thumb/1.jpg')";
             add_Text(new_weather,"Trời quang mây tạnh.")
             add_Links(music_feel,"nhạc chill","https://www.youtube.com/playlist?list=PLYi2OL7Hp1baKrDEy8GzXVhonwdS6hbpk")
         }else if(id >= 200 && id <= 232){
@@ -60,7 +60,7 @@ function weatherDetails(info){
             add_Text(new_weather,"Khói tỏa mùa sương.")
             add_Links(music_feel,"nhạc tình", "https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbWR6EZZx8tC8MBJLGcQ4-Y")
         }else if(id >= 801 && id <= 804){
-            wIcon.src = "icons/cloud.svg";
+            wIcon.style.background ="url('https://upload.wikimedia.org/wikipedia/commons/7/73/Cloudy_sky_%2826171935906%29.jpg')"
             add_Text(new_weather,"Mây mer~~")
             add_Links(music_feel,"nhạc tình","https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbWR6EZZx8tC8MBJLGcQ4-Y")
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
