@@ -9,6 +9,7 @@ var wIcon =document.querySelector('header');
 const blogname =document.querySelector('.blogname');
 var new_weather =document.getElementById('new-weather');
 var music_feel =document.getElementById('music_feel');
+var display_part =document.querySelector('display_part');
 
 let api;
 
@@ -105,6 +106,6 @@ function add_Links(vari,name,links){
 arrowBack.addEventListener("click", ()=>{
     wrapper.classList.remove("active");
     arrow.replaceChild(arrow_span,p);
-    
+    location.reload();
 });
 
