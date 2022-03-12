@@ -58,14 +58,14 @@ function weatherDetails(info){
             wIcon.src = "icons/snow.svg";
         }else if(id >= 701 && id <= 781){
             wIcon.src = "icons/haze.svg";
-            add_Text(new_weather,"Khói tỏa mùa sương.")
+            add_Text(new_weather,"Khói tỏa mù sương.")
             add_Links(music_feel,"nhạc tình", "https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbWR6EZZx8tC8MBJLGcQ4-Y")
         }else if(id >= 801 && id <= 804){
             wIcon.style.background ="url('https://i.pinimg.com/originals/4b/40/6f/4b406f08d46ff55aebdb98071070684f.jpg')"
             add_Text(new_weather,"Mây mer~~")
             add_Links(music_feel,"nhạc tình","https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbWR6EZZx8tC8MBJLGcQ4-Y")
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
-            wIcon.style.background = "url('https://mocah.org/uploads/posts/4592057-makoto-shinkai-the-garden-of-words-summer-sunlight-rainbows-rain-pavements-anime.jpg')";
+            wIcon.style.background = "url('https://wallpaperaccess.com/full/1358748.jpg')";
             add_Text(new_weather,"Mưa lạnh.")
             add_Links(music_feel,"nhạc sầuuu","https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbB0Ccjh8xz0uVjwB1c4Vsg") 
             
