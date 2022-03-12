@@ -54,7 +54,7 @@ header {
   color: #f0f8ff;
   text-decoration: none;
   display: inline-block;
-  padding: 0.4rem 0.1rem;
+  padding: 0.5rem ;
   transition: opacity 0.5s ease;
 }
 
@@ -95,15 +95,19 @@ input[type ="text"]{
   position:relative;
 }
 
+.wrapper .arrow {
+  margin-left:300px;
+}
+
+.wrapper.active .arrow{
+  margin-left:50px
+}
+
 .wrapper .arrow span{
   font-size: 30px;
   font-family:var(--Playfair);
 }
 
-.wrapper.active .arrow .arrow_name{
-  font-size: 30px;
-  font-family:var(--Roboto);
-}
 
 .wrapper .arrow i{
   margin:50px 10px 0px 350px;
@@ -115,7 +119,7 @@ input[type ="text"]{
 }
 
 .wrapper.active .arrow i{
-  margin-left: 50px;
+  margin-left: 0;
   font-size:30px;
 }
 
