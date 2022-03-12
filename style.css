@@ -124,7 +124,17 @@ input[type ="text"]{
 }
 .head{
   font-style: italic;
-  color:#A9A9A9;
+  color:#696969;
+}
+
+.degree{
+  font-style: italic;
+  color:#696969;
+}
+
+.numb{
+  font-style: italic;
+  color:#696969;
 }
 
 .wrapper .input-part{
@@ -154,13 +164,14 @@ input[type ="text"]{
 }
 
 #new-weather{
-  color:red;
+  color:#8B0000;
   font-style:italic;
 }
 
 #music_feel a{
-  color:blue;
+  color:#6495ED;
   text-decoration:none;
+  font-style:italic;
 }
 
 
