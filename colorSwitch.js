@@ -29,5 +29,5 @@ function darkModeOff() {
 
 
 $(window).scroll(function(){
-  $("").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
+  $(".banner").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
 });
