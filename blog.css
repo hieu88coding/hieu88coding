@@ -42,6 +42,7 @@ body {
 
 .blog-item{
   font-size:25px;
+  font-weight:800px;
 }
 
 .blog-item p{
@@ -71,9 +72,9 @@ body {
 }
 
 header {
-  height: 1080px;
+  height: 300px;
   width:1920px;
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
+  background: 
     url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
       center/ cover no-repeat fixed; 
   display: block;
@@ -114,9 +115,10 @@ header {
 }
 
 .blogname {
+  visibility:hidden;
+  display:block;
   margin: 20px;
   font-family: var(--Playfair);
-  display: block;
   text-align: center;
 }
 
@@ -280,7 +282,7 @@ h3 {
 }
 
 .dark-mode header{
-  background:linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
+  background:
     url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg)
       center/ cover no-repeat fixed; 
 }
