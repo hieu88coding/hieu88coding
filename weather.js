@@ -87,7 +87,7 @@ function weatherDetails(info){
     inputField.value = "";
     blogname.classList.add("active");
     arrow.replaceChild(p,arrow_span);
-    colorButton.classList.add("active");
+    dark_modeActive();
     
     
   }
@@ -105,6 +105,11 @@ function add_Links(vari,name,links){
   a.appendChild(link);
   a.href =links;
   vari.appendChild(a);
+}
+
+function dark_modeActive(){
+  colorButton.classList.add('active');
+  darkModeOff();
 }
 
 
