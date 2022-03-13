@@ -16,6 +16,8 @@ let api;
 var p = document.createElement('span');
 p.innerHTML ="Quay lại";
 
+const colorSwitch = document.getElementById("input-color-switch");
+
 
 
 
@@ -83,6 +85,8 @@ function weatherDetails(info){
     inputField.value = "";
     blogname.classList.add("active");
     arrow.replaceChild(p,arrow_span);
+    colorSwitch.classList.add("active");
+    
     
     
   }
@@ -109,9 +113,6 @@ arrowBack.addEventListener("click", ()=>{
     location.reload();
 });
 
-
-//create a variable to monitor the input checkbox
-const colorSwitch = document.getElementById("input-color-switch");
 
 //when the input is clicked verify the state of the checkbox
 colorSwitch.addEventListener("click", checkMode);
