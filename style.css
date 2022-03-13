@@ -382,6 +382,8 @@ h3 {
   width: 12em;
   left: -8em;
   top: 0.4em;
+  font-size:20px;
+  font-weight:500;
 }
 
 /*animate circle toggle if switch is on*/
