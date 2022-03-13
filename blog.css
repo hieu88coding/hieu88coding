@@ -30,7 +30,7 @@ body {
 .container {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 1.2rem;
 }
 
 .blog-img img{
@@ -129,9 +129,7 @@ background:linear-gradient(
     ),
     url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
       center/ cover no-repeat fixed;
-  display: block;
-  flex-direction: column;
-  justify-content: stretch;
+width:1920px;
 }
 
 
