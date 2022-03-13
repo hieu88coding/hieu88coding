@@ -109,10 +109,12 @@ function add_Links(vari,name,links){
 }
 
 function dark_modeActive(){
-  //document.header.classList.add("dark-mode-active");
-  //colorButton.classList.add('active');
-  //darkModeOff();
-  document.body.classList.add("dark-mode-active");
+  colorSwitch.classList.add("active");
+  if (colorSwitch.checked) {
+    document.body.classList.add("dark-mode-active");;
+  } else {
+    document.body.classList.remove("dark-mode-active");
+  }
 }
 
 
