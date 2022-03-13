@@ -18,7 +18,6 @@ let api;
 var p = document.createElement('span');
 p.innerHTML ="Quay lại";
 
-const colorButton =document.querySelector('.wrapper-color-switch')
 const colorSwitch = document.getElementById("input-color-switch");
 
 
@@ -109,14 +108,14 @@ function add_Links(vari,name,links){
 }
 
 function dark_modeActive(){
+  //colorSwitch.removeEventListener("click", checkMode);
   colorSwitch.addEventListener("click", checkModeActive);
   function checkModeActive(){
     if (colorSwitch.checked) {
       document.body.classList.add("dark-mode-active");
-      document.body.classList.remove("dark-mode");
     } else {
       document.body.classList.remove("dark-mode-active");
-      //document.body.classList.remove("dark-mode");
+      
     }
   }
 }  
