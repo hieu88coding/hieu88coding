@@ -288,10 +288,14 @@ h3 {
 }
 
 .dark-mode .blog{
-  background: 
-    url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg) rgba(0,0,0,0.4)
-      center/ cover no-repeat fixed; 
+  background-image:linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg);
+  background-position:center/cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  
 }
+
 
 
 /*container that holds the switch*/
