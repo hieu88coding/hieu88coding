@@ -26,3 +26,8 @@ function darkModeOn() {
 function darkModeOff() {
   document.body.classList.remove("dark-mode");
 }
+
+
+$(window).scroll(function(){
+  $("").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
+});
