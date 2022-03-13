@@ -130,17 +130,17 @@ input[type ="text"]{
 }
 .head{
   font-style: italic;
-  color:var(--base);
+  color:var(--clr-base);
 }
 
 .degree{
   font-style: italic;
-  color:#87CEFA;
+  color:var(--clr-base);
 }
 
 .numb{
   font-style: italic;
-  color:#87CEFA;
+  color:var(--clr-base);
 }
 
 .wrapper .input-part{
@@ -170,12 +170,12 @@ input[type ="text"]{
 }
 
 #new-weather{
-  color:#87CEFA;
+  color:var(--clr-base);
   font-style:italic;
 }
 
 #music_feel a{
-  color:#87CEFA;
+  color:var(--clr-base);
   text-decoration:none;
   font-style:italic;
 }
