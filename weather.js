@@ -143,7 +143,9 @@ function checkMode() {
 }
 
 function darkModeOn() {
-  document.body.classList.add("dark-mode");
+  document.documentElement.design.classList.add("dark-mode");
+  //document.design.classList.add("dark-mode");
+  
 }
 
 function darkModeOff() {
