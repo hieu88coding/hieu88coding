@@ -1,57 +1,231 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Quicksand:wght@300;400;500&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Quicksand:wght@300;400;500&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
 
 :root {
-  --Playfair:'Playfair Display', serif;
-  --Quicksand : 'Quicksand', sans-serif;
-  --Roboto :'Roboto', sans-serif;
-  --dark  #737373;
+  --Playfair: "Playfair Display", serif;
+  --Quicksand: "Quicksand", sans-serif;
+  --Roboto: "Roboto", sans-serif;
+  --clr-background: #eceff1;
+  --clr-base: #ffffff;
+  --clr-primary: #1a1a1a;
+  --clr-gray: #263238;
+  --font-size: 16px;
+  --border-radius: 0.2em;
 }
 
-.container{
-  max-width : 1320 px;
-  margin :0 auto;
-  padding : 0 1.2rem;
+
+body {
+  background-color: var(--clr-background);
+  color: var(--clr-gray);
+  font-size: var(--font-size);
+  line-height: 1.4;
+  position: relative;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--Quicksand);
+}
+
+.container {
+  max-width: 1320 px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+header {
+  height: 1080px;
+  width:1920px;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
+      center/ cover no-repeat fixed; 
+  display: block;
+  flex-direction: column;
+  justify-content: stretch;
 }
 
 
-
-
-.blog-img img{
-  max-width:960px;
-  max-height:480px;
-  display:block;
-  margin:0 auto;
-}
-
-.blog-item{
-  font-size:20px;
-}
-
-.blog-item p{
-  font-style:italic;
-  margin :1.2rem;
-  text-align:center;
-}
-
-.blog-time {
-  max-width:960px;
-  margin:0 auto;
-  font-style:italic;
-}
-
-.paragraph{
-  max-width:960px;
-  margin : 0 auto;
-}
-.paragraph div{
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
   padding: 1.2rem;
 }
 
-.paragraph a{
-  color: blue;
-  text-decoration : none;
-  font-style: italic;
+.navbar-nav {
+  padding: 0.8rem 0 0.2rem 0;
+  text-align: center;
 }
+
+.navbar-nav a {
+  margin: 2.5px;
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+  letter-spacing: 1px;
+  color: #f0f8ff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem ;
+  transition: opacity 0.5s ease;
+}
+
+.brand {
+  display: block;
+  font-size: 1.5rem;
+  font-family: var(--Playfair);
+  line-height: 1;
+  color: #f0f8ff;
+  text-align: center;
+}
+
+.blogname {
+  margin: 20px;
+  font-family: var(--Playfair);
+  display: block;
+  text-align: center;
+}
+
+
+
+
+.design {
+  padding: 4.5rem 0;
+}
+
+.title {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.title h2 {
+  font-family: var(--Playfair);
+  font-size: 2.4rem;
+}
+
+.title p {
+  text-transform: uppercase;
+  padding: 0.6rem 0;
+}
+
+.design-content {
+  margin: 2rem 0;
+}
+
+.design-item {
+  cursor: pointer;
+  margin: 1.5rem 0;
+}
+
+.design-img {
+  max-width: 960px;
+  max-height: 480px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.design-img::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+}
+
+.design-img img {
+  transition: all 0.5s ease;
+}
+
+.design-item :hover img {
+  transform: scale(1.2);
+}
+
+.design-title {
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.design-title a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem 0;
+  bottom: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+
+.social-links a {
+  border: 2px solid #f0f8ff;
+  color: #f0f8ff;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+}
+
+.avatar {
+  position: relative;
+}
+
+.avatar img {
+  width: 300px;
+  height: 300px;
+}
+
+.noidung {
+  max-width: 1236px;
+  margin: -310px 21px 0 336px;
+  top: 0px;
+}
+
+h3 {
+  margin-top: 1.2rem;
+}
+
+.h3content {
+  padding: 1.2rem;
+  font-size: 20px;
+}
+
+.h3content img {
+  width: 1200px;
+  height: 720px;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.h3content i {
+  border: 1.2px solid white;
+  margin: 0 181px 0 422px;
+}
+.design-list {
+  font-size: 20px;
+  text-align: center;
+}
+
+.list {
+  padding: 0;
+  margin: 10px;
+}
+
+.list a {
+  text-decoration: none;
+  color:blue;
+}
+
+
 
 
 
@@ -127,6 +301,7 @@
 #input-color-switch {
   display: none;
 }
+
 
 
 
