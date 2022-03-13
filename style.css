@@ -333,6 +333,12 @@ h3 {
   --clr-gray: #e0f7fa;
 }
 
+.dark-mode header{
+  background:linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg)
+      center/ cover no-repeat fixed; 
+}
+
 
 /*container that holds the switch*/
 .wrapper-color-switch {
