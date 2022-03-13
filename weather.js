@@ -51,7 +51,7 @@ function weatherDetails(info){
     const {humidity, temp} =info.main;
     
     if(id == 800){
-            wIcon.style.background = " url('https://wallpaperaccess.com/full/478348.jpg')";
+            wIcon.style.background = " url('https://a-static.besthdwallpaper.com/cloud-blue-sky-anime-wallpaper-1920x1080-919_48.jpg')";
             add_Text(new_weather,"Trời quang mây tạnh.")
             add_Links(music_feel,"nhạc chill","https://www.youtube.com/playlist?list=PLYi2OL7Hp1baKrDEy8GzXVhonwdS6hbpk")
         }else if(id >= 200 && id <= 232){

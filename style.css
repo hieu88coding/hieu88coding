@@ -130,7 +130,7 @@ input[type ="text"]{
 }
 .head{
   font-style: italic;
-  color:#87CEFA;
+  color:var(--base);
 }
 
 .degree{
