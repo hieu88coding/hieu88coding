@@ -326,7 +326,7 @@ h3 {
 
 
 .wrapper-color-switch.active{
-  display:none;
+ /*display:none;*/
 }
 
 /*dark mode colors class*/
@@ -341,6 +341,10 @@ h3 {
   background:linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
     url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg)
       center/ cover no-repeat fixed; 
+}
+
+.dark-mode-active header{
+  
 }
 
 

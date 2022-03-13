@@ -10,6 +10,7 @@ const blogname =document.querySelector('.blogname');
 var new_weather =document.getElementById('new-weather');
 var music_feel =document.getElementById('music_feel');
 var display_part =document.querySelector('display_part');
+var header =document.querySelector('header');
 
 
 let api;
@@ -108,8 +109,10 @@ function add_Links(vari,name,links){
 }
 
 function dark_modeActive(){
-  colorButton.classList.add('active');
-  darkModeOff();
+  //document.header.classList.add("dark-mode-active");
+  //colorButton.classList.add('active');
+  //darkModeOff();
+  document.header.classList.add("dark-mode-active");
 }
 
 
