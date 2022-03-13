@@ -28,9 +28,9 @@ body {
 }
 
 .container {
-  max-width: 1320 px;
+  max-width: 1920px;
   margin: 0 auto;
-  padding: 0 1.2rem;
+  padding: 0;
 }
 
 .blog-img img{
@@ -128,7 +128,10 @@ background:linear-gradient(
       rgba(0, 0, 0, 0.5)
     ),
     url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
-      center/ cover no-repeat fixed; 
+      center/ cover no-repeat fixed;
+  display: block;
+  flex-direction: column;
+  justify-content: stretch;
 }
 
 
@@ -302,6 +305,7 @@ h3 {
   background-position:center/cover;
   background-repeat:no-repeat;
   background-attachment:fixed;
+
   
 }
 
