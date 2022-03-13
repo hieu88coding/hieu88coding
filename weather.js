@@ -132,10 +132,14 @@ function checkMode() {
 
 function darkModeOn() {
   document.body.classList.add("dark-mode");
+  wIcon.style.background ='url(https://wallpaperaccess.com/full/2766128.jpg)';
 }
 
 function darkModeOff() {
   document.body.classList.remove("dark-mode");
+  wIcon.style.background ='linear-gradient(rgba(255, 255, 255, 0.4) ,rgba(0, 0, 0, 0.4))
+    url('https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg')
+      center/ cover no-repeat fixed'
 }
 
 
