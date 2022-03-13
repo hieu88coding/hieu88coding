@@ -14,6 +14,7 @@
 
 
 body {
+  overflow-x: hidden;
   background-color: var(--clr-background);
   color: var(--clr-gray);
   font-size: var(--font-size);
@@ -28,7 +29,7 @@ body {
 }
 
 .container {
-  max-width: 1320 px;
+  max-width: 1920 px;
   margin: 0 auto;
   padding: 0 1.2rem;
 }
