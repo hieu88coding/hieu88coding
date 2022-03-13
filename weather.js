@@ -85,7 +85,6 @@ function weatherDetails(info){
     
     wrapper.classList.add("active");
     inputField.value = "";
-    blogname.classList.add("active");
     arrow.replaceChild(p,arrow_span);
   
     
@@ -124,18 +123,12 @@ colorSwitch.addEventListener("click", checkMode);
 function checkMode() {
   console.log("checking...");
   if (colorSwitch.checked) {
-    if(wrapper.className =="wrapper active"){
-      document.body.classList.add("dark-mode-active");
-    }else{
+    
+    
       darkModeOn();
-    }
   }else{
-    if(wrapper.className =="wrapper active"){
-      document.body.classList.remove("dark-mode-active");
-    }else{
       darkModeOff();
-    }
-  }
+}
 }
 
 function darkModeOn() {

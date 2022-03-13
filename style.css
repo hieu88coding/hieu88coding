@@ -6,7 +6,7 @@
   --Roboto: "Roboto", sans-serif;
   --clr-background: #eceff1;
   --clr-base: #ffffff;
-  --clr-primary: #aa00ff;
+  --clr-primary: #1a1a1a;
   --clr-gray: #263238;
   --font-size: 16px;
   --border-radius: 0.2em;
@@ -83,9 +83,6 @@ header {
   text-align: center;
 }
 
-.blogname.active{
-  display:none;
-}
 
 input[type ="text"]{
   display:block;
@@ -331,7 +328,7 @@ h3 {
 .dark-mode {
   --clr-background: #263238;
   --clr-base: black;
-  --clr-primary: #69f0ae;
+  --clr-primary: #ffffff;
   --clr-gray: #e0f7fa;
 }
 
@@ -340,22 +337,6 @@ h3 {
     url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg)
       center/ cover no-repeat fixed; 
 }
-
-.dark-mode-active{
-  --clr-background: #263238;
-  --clr-base: black;
-  --clr-primary: #69f0ae;
-  --clr-gray: #e0f7fa;
-}
-
-.wrapper.active{
-  --clr-background: #eceff1;
-  --clr-base: #ffffff;
-  --clr-primary: #aa00ff;
-  --clr-gray: #263238;
-}
-
-
 
 
 /*container that holds the switch*/
