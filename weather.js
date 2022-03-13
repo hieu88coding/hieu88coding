@@ -87,7 +87,6 @@ function weatherDetails(info){
     inputField.value = "";
     blogname.classList.add("active");
     arrow.replaceChild(p,arrow_span);
-    dark_modeActive();
     
     
   }
@@ -107,19 +106,6 @@ function add_Links(vari,name,links){
   vari.appendChild(a);
 }
 
-function dark_modeActive(){
-  //colorSwitch.removeEventListener("click", checkMode);
-  colorSwitch.addEventListener("click", checkModeActive);
-  function checkModeActive(){
-    if (colorSwitch.checked) {
-      document.body.classList.add("dark-mode-active");
-    } else {
-      document.body.classList.remove("dark-mode-active");
-      
-    }
-  }
-}  
-
 
 arrowBack.addEventListener("click", ()=>{
     wrapper.classList.remove("active");
@@ -137,10 +123,10 @@ colorSwitch.addEventListener("click", checkMode);
 function checkMode() {
   console.log("checking...");
   if (colorSwitch.checked) {
-    console.log("dark on");
+    if()
     darkModeOn();
   } else {
-    console.log("dark off");
+    
     darkModeOff();
   }
 }
