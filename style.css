@@ -162,7 +162,11 @@ input[type ="text"]{
   margin-left:50px;
   margin-top:100px;
   flex-direction: column;
-  transition-delay :5s;
+  transition-delay :1s;
+  --clr-background: #eceff1;
+  --clr-base: #ffffff;
+  --clr-primary: #aa00ff;
+  --clr-gray: #263238;
   
 }
 
@@ -325,9 +329,7 @@ h3 {
 
 
 
-.wrapper-color-switch.active{
- /*display:none;*/
-}
+
 
 /*dark mode colors class*/
 .dark-mode {
@@ -350,7 +352,7 @@ h3 {
   --clr-gray: #e0f7fa;
 }
 
-.dark-mode-active header{
+.wrapper.active{
   --clr-background: #eceff1;
   --clr-base: #ffffff;
   --clr-primary: #aa00ff;

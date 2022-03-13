@@ -123,11 +123,17 @@ colorSwitch.addEventListener("click", checkMode);
 function checkMode() {
   console.log("checking...");
   if (colorSwitch.checked) {
-    if()
-    darkModeOn();
-  } else {
-    
-    darkModeOff();
+    if(wrapper.className =="wrapper active"){
+      document.body.classList.add("dark-mode-active");
+    }else{
+      darkModeOn();
+    }
+  }else{
+    if(wrapper.className =="wrapper active"){
+      document.body.classList.remove("dark-mode-active");
+    }else{
+      darkModeOff();
+    }
   }
 }
 
