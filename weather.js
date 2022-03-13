@@ -11,11 +11,13 @@ var new_weather =document.getElementById('new-weather');
 var music_feel =document.getElementById('music_feel');
 var display_part =document.querySelector('display_part');
 
+
 let api;
 
 var p = document.createElement('span');
 p.innerHTML ="Quay lại";
 
+const colorButton =document.querySelector('.wrapper-color-switch')
 const colorSwitch = document.getElementById("input-color-switch");
 
 
@@ -85,8 +87,7 @@ function weatherDetails(info){
     inputField.value = "";
     blogname.classList.add("active");
     arrow.replaceChild(p,arrow_span);
-    colorSwitch.classList.add("active");
-    
+    colorButton.classList.add("active");
     
     
   }

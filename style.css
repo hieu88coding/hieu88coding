@@ -325,7 +325,9 @@ h3 {
 
 
 
-
+.wrapper-color-switch.active{
+  display:none;
+}
 
 /*dark mode colors class*/
 .dark-mode {
