@@ -33,12 +33,51 @@ body {
   padding: 0 1.2rem;
 }
 
+.blog-img img{
+  max-width:960px;
+  max-height:480px;
+  display:block;
+  margin:0 auto;
+}
+
+.blog-item{
+  font-size:20px;
+}
+
+.blog-item p{
+  font-style:italic;
+  margin :1.2rem;
+  text-align:center;
+}
+
+.blog-time {
+  max-width:960px;
+  margin:0 auto;
+  font-style:italic;
+}
+
+.paragraph{
+  max-width:960px;
+  margin : 0 auto;
+}
+.paragraph div{
+  padding: 1.2rem;
+}
+
+.paragraph a{
+  color: blue;
+  text-decoration : none;
+  font-style: italic;
+}
+
 header {
   height: 1080px;
   width:1920px;
   background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
-    url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
-      center/ cover no-repeat fixed; 
+    url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg);
+  background-position:  center/cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
   display: block;
   flex-direction: column;
   justify-content: stretch;
@@ -82,7 +121,6 @@ header {
   display: block;
   text-align: center;
 }
-
 
 
 
