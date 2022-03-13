@@ -343,8 +343,18 @@ h3 {
       center/ cover no-repeat fixed; 
 }
 
+.dark-mode-active{
+  --clr-background: #263238;
+  --clr-base: black;
+  --clr-primary: #69f0ae;
+  --clr-gray: #e0f7fa;
+}
+
 .dark-mode-active header{
-  
+  --clr-background: #eceff1;
+  --clr-base: #ffffff;
+  --clr-primary: #aa00ff;
+  --clr-gray: #263238;
 }
 
 

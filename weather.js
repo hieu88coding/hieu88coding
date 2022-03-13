@@ -88,7 +88,7 @@ function weatherDetails(info){
     inputField.value = "";
     blogname.classList.add("active");
     arrow.replaceChild(p,arrow_span);
-    dark_modeActive();
+    //dark_modeActive();
     
     
   }
@@ -112,7 +112,7 @@ function dark_modeActive(){
   //document.header.classList.add("dark-mode-active");
   //colorButton.classList.add('active');
   //darkModeOff();
-  document.header.classList.add("dark-mode-active");
+  document.body.classList.add("dark-mode-active");
 }
 
 
