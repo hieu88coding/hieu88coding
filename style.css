@@ -133,17 +133,17 @@ input[type ="text"]{
 }
 .head{
   font-style: italic;
-  color:#696969;
+  color:#87CEFA;
 }
 
 .degree{
   font-style: italic;
-  color:#696969;
+  color:#87CEFA;
 }
 
 .numb{
   font-style: italic;
-  color:#696969;
+  color:#87CEFA;
 }
 
 .wrapper .input-part{
@@ -162,11 +162,7 @@ input[type ="text"]{
   margin-left:50px;
   margin-top:100px;
   flex-direction: column;
-  transition-delay :1s;
-  --clr-background: #eceff1;
-  --clr-base: #ffffff;
-  --clr-primary: #aa00ff;
-  --clr-gray: #263238;
+  transition-delay :0.5s;
   
 }
 
@@ -177,12 +173,12 @@ input[type ="text"]{
 }
 
 #new-weather{
-  color:#8B0000;
+  color:#87CEFA;
   font-style:italic;
 }
 
 #music_feel a{
-  color:#6495ED;
+  color:#87CEFA;
   text-decoration:none;
   font-style:italic;
 }
