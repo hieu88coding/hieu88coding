@@ -74,7 +74,7 @@ body {
 header {
   height: 300px;
   width:1920px;
-  background: 
+  background:linear-gradient(rgba(101, 0, 0, 0.24), rgba(101, 0, 0, 0.24)), 
     url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
       center/ cover no-repeat fixed; 
   display: block;
@@ -84,7 +84,6 @@ header {
 
 
 .navbar {
-  background: rgba(0, 0, 0, 0.6);
   padding: 1.2rem;
 }
 
@@ -123,7 +122,7 @@ header {
 }
 
 .blog{
-background:linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
+background:linear-gradient(rgba(101, 0, 0, 0.24), rgba(101, 0, 0, 0.24)),
     url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
       center/ cover no-repeat fixed; 
 }
@@ -282,13 +281,13 @@ h3 {
 }
 
 .dark-mode header{
-  background:
+  background:linear-gradient(rgba(101, 0, 0, 0.24), rgba(101, 0, 0, 0.24)),
     url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg)
       center/ cover no-repeat fixed; 
 }
 
 .dark-mode .blog{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image:linear-gradient(rgba(101, 0, 0, 0.24), rgba(101, 0, 0, 0.24)),
     url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg);
   background-position:center/cover;
   background-repeat:no-repeat;
