@@ -43,6 +43,7 @@ body {
 .blog-item{
   font-size:20px;
   font-weight:400;
+  letter-spacing:2px;
 }
 
 .blog-item p{
@@ -288,7 +289,7 @@ h3 {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg)
+    url(https://wallpaperaccess.com/full/415831.jpg)
       center/ cover no-repeat fixed; 
 }
 
@@ -297,7 +298,7 @@ h3 {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg);
+    url(https://wallpaperaccess.com/full/415831.jpg);
   background-position:center/cover;
   background-repeat:no-repeat;
   background-attachment:fixed;
