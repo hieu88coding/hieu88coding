@@ -58,7 +58,6 @@ header {
   margin:20px;
   line-height:80px;
   height:60px;
-  font-size:17px;
   bottom:20px;
   position:relative;
 }
@@ -70,8 +69,10 @@ header {
   color: #f0f8ff;
   text-decoration: none;
   display: inline-block;
-  padding: 0.5rem ;
+  
+  padding: 25px;
   transition: opacity 0.5s ease;
+  font-size:17px;
 }
 
 .brand {
@@ -85,11 +86,11 @@ header {
 }
 
 .blogname {
-  margin:20px;
+  margin:0 auto;
+  max-width:500px;
   font-family: var(--Playfair);
   display: block;
   text-align: center;
-  padding-left:180px;
 }
 
 
