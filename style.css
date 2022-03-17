@@ -54,25 +54,28 @@ header {
 
 .navbar-nav {
   float:right;
-  padding:0 800px 20px 100px;
+  padding:0 800px 20px 200px;
   margin:20px;
   line-height:80px;
   height:60px;
   bottom:20px;
+  left:600px;
   position:relative;
 }
 
 .navbar-nav a {
+  position:relative;
   text-transform: uppercase;
   font-family: var(--Roboto);
   letter-spacing: 1px;
   color: #f0f8ff;
   text-decoration: none;
   display: inline-block;
-  
+  height:60px;
   padding: 25px;
   transition: opacity 0.5s ease;
-  font-size:17px;
+  font-size:25px;
+  bottom:100px;
 }
 
 .brand {
@@ -87,10 +90,12 @@ header {
 
 .blogname {
   margin:0 auto;
-  max-width:500px;
+  max-width:800px;
   font-family: var(--Playfair);
   display: block;
   text-align: center;
+  font-size:35px
+
 }
 
 
