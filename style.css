@@ -59,7 +59,7 @@ header {
   line-height:80px;
   height:60px;
   bottom:20px;
-  left:600px;
+  left:690px;
   position:relative;
 }
 
@@ -78,6 +78,24 @@ header {
   bottom:100px;
 }
 
+.navbar-nav a::after{
+  content: "";
+    position: absolute;
+    display: block;
+    height: 0.4em;
+    width: 0%;
+    background-color: var(--pink);
+    bottom: -1em;
+    transition: all ease-in-out 250ms;
+}
+.navbar-nav a:hover::after {
+    width: 60%;
+  }
+
+.navbar-nav a:hover {
+    color: red;
+  }
+
 .brand {
   margin-top:20px;
   font-size: 35px;
@@ -85,7 +103,7 @@ header {
   line-height:80px;
   color: #f0f8ff;
   padding:0 100px;
-  text-decoration: none;
+  
 }
 
 .blogname {
