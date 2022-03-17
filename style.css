@@ -53,7 +53,7 @@ header {
 
 .navbar-nav {
   padding: 0.8rem 0 0.2rem 0;
-  text-align: center;
+  text-align:right;
 }
 
 .navbar-nav a {
@@ -74,7 +74,7 @@ header {
   font-family: var(--Playfair);
   line-height:1;
   color: #f0f8ff;
-  padding:69px 100px 69px;
+  padding:0 1.5rem;
   text-decoration: none;
 }
 
