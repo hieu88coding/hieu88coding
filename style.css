@@ -49,15 +49,17 @@ header {
 .navbar {
   background: rgba(0, 0, 0, 0.6);
   padding: 1.2rem;
+  height:80px;
 }
 
 .navbar-nav {
   padding: 0.8rem 0 0.2rem 0;
-  text-align:right;
+  margin-right:20px;
+  float:right;
 }
 
 .navbar-nav a {
-  margin: 2.5px;
+  margin: 0 5px;
   text-transform: uppercase;
   font-family: var(--Roboto);
   letter-spacing: 1px;
@@ -79,7 +81,7 @@ header {
 }
 
 .blogname {
-  margin: 20px;
+  margin:20px;
   font-family: var(--Playfair);
   display: block;
   text-align: center;
