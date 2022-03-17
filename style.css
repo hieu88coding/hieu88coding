@@ -54,8 +54,9 @@ header {
 
 .navbar-nav {
   padding: 0.8rem 0 0.2rem 0;
-  margin-right:20px;
+  margin:0 auto;
   float:right;
+  line-height:80px;
 }
 
 .navbar-nav a {
@@ -71,12 +72,12 @@ header {
 }
 
 .brand {
-  display: block;
-  font-size: 30px;
+ 
+  font-size: 35px;
   font-family: var(--Playfair);
-  line-height:1;
+  line-height:80px;
   color: #f0f8ff;
-  padding:0 1.5rem;
+  padding:0 100px;
   text-decoration: none;
 }
 
