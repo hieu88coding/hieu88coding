@@ -70,11 +70,12 @@ header {
 
 .brand {
   display: block;
-  font-size: 1.5rem;
+  font-size: 30px;
   font-family: var(--Playfair);
-  line-height: 1;
+  line-height:1;
   color: #f0f8ff;
-  text-align: center;
+  padding:69px 100px 69px;
+  text-decoration: none;
 }
 
 .blogname {
