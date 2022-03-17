@@ -84,8 +84,8 @@ header {
     display: block;
     height: 0.4em;
     width: 0%;
-    background-color: var(--pink);
-    bottom: -1em;
+    background-color: #80ffff;
+    bottom: -0.2em;
     transition: all ease-in-out 250ms;
 }
 .navbar-nav a:hover::after {
@@ -93,7 +93,7 @@ header {
   }
 
 .navbar-nav a:hover {
-    color: red;
+    color: #80ffff;
   }
 
 .brand {
