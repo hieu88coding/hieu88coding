@@ -249,6 +249,7 @@ input[type ="text"]{
   position: relative;
   overflow: hidden;
   display:flex;
+  justify-content: center;
 }
 
 .design-img::after {
