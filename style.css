@@ -255,10 +255,12 @@ input[type ="text"]{
   content: " ";
   top: 0;
   left: 0;
+  right
 }
 
 .design-img img {
   transition: all 0.5s ease;
+ 
 }
 
 .design-item :hover img {
