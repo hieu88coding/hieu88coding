@@ -248,6 +248,7 @@ input[type ="text"]{
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  display:flex;
 }
 
 .design-img::after {
@@ -255,12 +256,11 @@ input[type ="text"]{
   content: " ";
   top: 0;
   left: 0;
-  right
 }
 
 .design-img img {
   transition: all 0.5s ease;
- 
+  
 }
 
 .design-item :hover img {
