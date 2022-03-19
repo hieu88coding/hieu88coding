@@ -412,9 +412,11 @@ h3 {
   top:5%;
   right:5%;
   font-size:30px;
-  color:var(--clr-base);
+  color:#ffffff;
   cursor:pointer;
 }
+
+
 
 
 
