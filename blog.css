@@ -369,6 +369,14 @@ h3 {
 
 
 
+.gallery{
+  margin: 100px auto 50px;
+  display:grid;
+  grid-template-colummn:
+}
+
+
+
 
 
 
