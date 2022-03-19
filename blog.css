@@ -416,6 +416,12 @@ h3 {
   cursor:pointer;
 }
 
+.album-name{
+  max-width:960px;
+  margin : 0 auto;
+  text-align:center;
+}
+
 
 
 
