@@ -438,8 +438,9 @@ h3 {
 
 
 @media only screen and (min-width:1056px) and(max-width:1728px){
+  .container|
   .navbar{
-    width:65%;
+    width:50%;
   }
 }
 
