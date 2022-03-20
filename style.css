@@ -438,9 +438,35 @@ h3 {
 
 
 @media only screen and (min-width:1056px) and(max-width:1728px){
-  .container|
+  .container{
+    width:50%;
+  }
   .navbar{
     width:50%;
+  }
+  .banner{
+    width:50%;
+  }
+  header{
+    width:50%;
+    background-size:50%;
+  }
+}
+
+
+@media only screen and(max-width:1000px){
+  .container{
+    width:50%;
+  }
+  .navbar{
+    width:50%;
+  }
+  .banner{
+    width:50%;
+  }
+  header{
+    width:50%;
+    background-size:50%;
   }
 }
 
