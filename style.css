@@ -63,6 +63,12 @@ header {
   position:relative;
 }
 
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .navbar-nav a {
   position:relative;
   text-transform: uppercase;
