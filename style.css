@@ -444,12 +444,10 @@ h3 {
 
 
 @media only screen and (min-width:1056px) and (max-width:1728px){
-  .navbar{
-    padding-right:300px;
-  }
+  
   .navbar-nav{
-    width:50vw;
     padding-right:800px;
+    width:50%;
   }
   .banner .container{
     width:100vw;
@@ -457,7 +455,7 @@ h3 {
     padding:0;
   }
   .blogname{
-    margin-left:33%;
+    margin-left:300px;
    
   }
 }
