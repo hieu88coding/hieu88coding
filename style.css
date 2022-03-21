@@ -20,6 +20,7 @@ body {
   font-size: var(--font-size);
   line-height: 1.4;
   position: relative;
+  margin:0;
 }
 
 * {
@@ -451,15 +452,21 @@ h3 {
   }
   .banner .container{
     width:100vw;
-    margin:0;
     padding:0;
+    position:relative;
+    margin-left:0;
+    margin-right:0;
+    display:inline-block;
+    
   }
   .blogname{
     margin-left:300px;
   }
   
   .wrapper-color-switch{
-    
+    position:absolute;
+    bottom:0;
+    right:0;
   }
 }
 
