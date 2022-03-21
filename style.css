@@ -457,6 +457,7 @@ h3 {
     margin-left:0;
     margin-right:0;
     display:inline-block;
+    height:213px;
     
   }
   .blogname{
@@ -466,13 +467,19 @@ h3 {
   .wrapper-color-switch{
     position:absolute;
     bottom:0;
-    right:0;
+    left :1400px;
   }
   .wrapper{
     width:75%;
   }
   .arrow{
     margin-left:250px !important;
+  }
+  .design .container{
+    padding-left:300px;
+  }
+  footer{
+    object-fit:cover;
   }
 }
 
