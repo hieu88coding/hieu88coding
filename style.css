@@ -441,8 +441,14 @@ h3 {
   .navbar{
     padding-right:450px;
   }
+  .banner .container{
+    width:100vw;
+    margin:0;
+    padding:0;
+  }
   .blogname{
-    margin-left:25vw;
+    margin-left:33%;
+   
   }
 }
 
