@@ -468,6 +468,12 @@ h3 {
     bottom:0;
     right:0;
   }
+  .wrapper{
+    width:75%;
+  }
+  .arrow{
+    margin-left:250px !important;
+  }
 }
 
 
