@@ -54,7 +54,7 @@ header {
 
 .navbar-nav {
   float:right;
-  padding:0 800px 20px 200px;
+  padding:0 800px 20px 0px;
   margin:20px;
   line-height:80px;
   height:60px;
@@ -439,6 +439,9 @@ h3 {
 
 @media only screen and (min-width:1056px) and (max-width:1728px){
   .navbar{
+    padding-right:450px;
+  }
+  .blogname{
     
   }
 }
