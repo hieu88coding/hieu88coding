@@ -467,7 +467,7 @@ h3 {
   .wrapper-color-switch{
     position:absolute;
     bottom:0;
-    left :1380px;
+    left :1320px;
   }
   .wrapper{
     width:75%;
@@ -477,6 +477,9 @@ h3 {
   }
   .design .container{
     padding-left:300px;
+  }
+  .design{
+    width:100%;
   }
   
 }
