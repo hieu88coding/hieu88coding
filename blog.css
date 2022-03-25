@@ -428,7 +428,22 @@ h3 {
   
   .container{
     margin:0;
-    width:75vw;
+    width:50vw;
+  }
+  
+  .banner .container{
+    width:100%;
+    padding:0;
+    position:relative;
+    margin-left:0;
+    margin-right:0;
+    display:inline-block;
+    height:213px;
+  
+  .wrapper-color-switch{
+    position:absolute;
+    bottom:0;
+    left :1320px;
   }
   
 }
