@@ -28,6 +28,4 @@ function darkModeOff() {
 }
 
 
-$(window).scroll(function(){
-  $(".banner").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
-});
+
