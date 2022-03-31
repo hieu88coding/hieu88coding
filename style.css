@@ -456,8 +456,8 @@ h3 {
     position:relative;
     margin-left:0;
     margin-right:0;
-    display:inline-block;
-    height:213px;
+    display:flex;
+    align-items:center;
     
   }
   .blogname{
