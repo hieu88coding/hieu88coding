@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-  max-width: 1920 px;
+  max-width: 85%;
   margin: 0 auto;
   padding: 0 1.2rem;
 }
@@ -58,6 +58,7 @@ header {
   float:right;
   position:relative;
   padding-top:12px;
+  
   
 }
 
