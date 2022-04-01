@@ -51,7 +51,7 @@ header {
   background: rgba(0, 0, 0, 0.6);
   padding: 1.2rem;
   height:80px;
-  width:100%;
+  width:100vw;
 }
 
 .navbar-nav {
