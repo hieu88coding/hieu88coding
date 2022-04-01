@@ -37,7 +37,7 @@ body {
 
 header {
   height: 1080px;
-  width:1920px;
+  max-width:1920px;
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
     url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
       center/ cover no-repeat fixed; 
@@ -55,12 +55,6 @@ header {
 
 .navbar-nav {
   float:right;
-  padding:0 800px 20px 200px;
-  margin:20px;
-  line-height:80px;
-  height:85px;
-  bottom: 20px;
-  left:690px;
   position:relative;
 }
 
@@ -78,11 +72,10 @@ header {
   color: #f0f8ff;
   text-decoration: none;
   display: inline-block;
-  height:60px;
-  padding: 25px;
   transition: opacity 0.5s ease;
   font-size:25px;
-  bottom:100px;
+  padding:10px;
+  
 }
 
 .navbar-nav a::after{
@@ -448,7 +441,8 @@ h3 {
   
   
   .navbar-nav{
-   
+   margin:0;
+    font-size:20px;
   }
   
   .brand{
