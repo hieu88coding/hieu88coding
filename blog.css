@@ -160,7 +160,7 @@ body {
 
 header {
   height: 300px;
-  width:1920px;
+  max-width:1920px;
   background:linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)), 
     url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
       center/ cover no-repeat fixed; 
@@ -170,15 +170,36 @@ header {
 }
 
 
+.title {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.title h2 {
+  font-family: var(--Playfair);
+  font-size: 2.4rem;
+}
+
+.title p {
+  text-transform: uppercase;
+  padding: 0.6rem 0;
+}
+
+
 
 
 .blog{
 background:linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)), 
     url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
       center/ cover no-repeat fixed;
-width:1920px;
+max-width:1920px;
 }
 
+.blog .container{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
 
 
 
@@ -412,6 +433,11 @@ h3 {
 
 
 @media only screen and (min-width:1056px) and (max-width:1728px){
+  
+  .navbar-nav{
+   margin:0;
+   font-size:20px;
+  }
   
   .brand{
     padding-left:0;
