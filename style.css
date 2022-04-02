@@ -474,7 +474,9 @@ h3 {
 
 
 @media only screen and (min-width:1056px) and (max-width:1728px){
-  
+  .checkbtn{
+    display:none;
+  }
   
   .navbar-nav{
    margin:0;
@@ -529,7 +531,7 @@ h3 {
     position:fixed;
     width:100%;
     height:100vh;
-    top:100px;
+    top:115px;
     left:-100%;
     text-align:center;
     transition: all .5s;
@@ -542,8 +544,13 @@ h3 {
   #check:checked ~ .navbar-nav{
     left:0;
   }
-  
-  
+  #check:checked ~ .wrapper-color-switch{
+    display:flex;
+    flex-direction:column;
+  }
+  #check:not(:checked) ~ .wrapper-color-switch{
+    display:none;
+  }
 }
 
 
