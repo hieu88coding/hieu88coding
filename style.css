@@ -553,7 +553,7 @@ h3 {
     display: table;
   }
   #check:checked ~ .wrapper-color-switch{
-    display:none;
+    visibility:hidden;
   }
 }
 
