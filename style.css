@@ -544,11 +544,15 @@ h3 {
   #check:checked ~ .navbar-nav{
     left:0;
   }
-  #check:checked ~ .wrapper-color-switch{
-    display:flex;
-    flex-direction:column;
+  
+  .wrapper-color-switch{
+    position:relative;
+    top:210px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
   }
-  #check:not(:checked) ~ .wrapper-color-switch{
+  #check:checked ~ .wrapper-color-switch{
     display:none;
   }
 }
