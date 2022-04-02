@@ -47,6 +47,18 @@ header {
 }
 
 
+.checkbtn{
+  font-size:30px;
+  color:#f0f8ff;
+  float:right;
+  line-height:80px;
+}
+
+#check{
+  display:none;
+}
+
+
 .navbar {
   background: rgba(0, 0, 0, 0.6);
   padding-top: 1.2rem;
