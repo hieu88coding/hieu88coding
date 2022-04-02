@@ -376,7 +376,7 @@ h3 {
 
 .list a {
   text-decoration: none;
-  color:pink;
+  color:	#ffb6c1;
 }
 
 
@@ -504,6 +504,11 @@ h3 {
     margin-right: auto;
     display: table;
   }
+  
+  
+}
+
+@media only screen and (min-width:1056px) and (max-width:960px){
   
   
 }
