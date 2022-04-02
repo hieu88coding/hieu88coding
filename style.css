@@ -538,7 +538,7 @@ h3 {
     display:block;
   }
   
-  #check:checked ~navbar-nav{
+  input:checked{
     left:0;
   }
 }
