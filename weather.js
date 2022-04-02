@@ -65,7 +65,7 @@ function weatherDetails(info){
             add_Text(new_weather,"Khói tỏa mù sương.")
             add_Links(music_feel,"nhạc tình", "https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbWR6EZZx8tC8MBJLGcQ4-Y")
         }else if(id >= 801 && id <= 804){
-            wIcon.style.background ="url('https://wallpaperaccess.com/full/1761712.jpg')"
+            wIcon.style.background ="url('https://wallpaperaccess.com/full/104837.jpg')"
             add_Text(new_weather,"Mây mer~~")
             add_Links(music_feel,"nhạc tình","https://www.youtube.com/playlist?list=PLYi2OL7Hp1bbWR6EZZx8tC8MBJLGcQ4-Y")
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){

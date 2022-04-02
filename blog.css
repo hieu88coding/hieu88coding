@@ -426,25 +426,30 @@ h3 {
 
 @media only screen and (min-width:1056px) and (max-width:1728px){
   
-  .container{
-    margin:0;
-    width:50vw;
+  .brand{
+    padding-left:0;
+    
   }
-  
   .banner .container{
     width:100%;
     padding:0;
     position:relative;
     margin-left:0;
     margin-right:0;
-    display:inline-block;
-    height:213px;
+    display:flex;
+    align-items:center;
+    
+  }
+  .blogname{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
   }
   
   .wrapper-color-switch{
     position:absolute;
     bottom:0;
-    left :1320px;
+    right:0;
   }
 }
 
