@@ -52,6 +52,7 @@ header {
   color:#f0f8ff;
   float:right;
   line-height:80px;
+  cursor:pointer;
 }
 
 #check{
@@ -520,9 +521,26 @@ h3 {
   
 }
 
-@media only screen and (min-width:1056px) and (max-width:960px){
+@media only screen and (min-width:600px) and (max-width:960px){
+  .checkbtn{
+    display:block;
+  }
+  .navbar-nav{
+    position:fixed;
+    width:100%;
+    height:100vh;
+    top:80px;
+    left:-100%;
+    text-align:center;
+    transition: all .5s;
+  }
+  .navbar-nav a{
+    display:block;
+  }
   
-  
+  #check:checked ~navbar-nav{
+    left:0;
+  }
 }
 
 
