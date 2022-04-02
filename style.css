@@ -52,7 +52,7 @@ header {
   padding-top: 1.2rem;
   padding-bottom:1.2rem;
   height:80px;
-  width:100vw;
+  width:100%;
   margin:0;
 }
 
@@ -457,6 +457,7 @@ h3 {
     
   }
   .banner .container{
+    width:100%;
     padding:0;
     position:relative;
     margin-left:0;
@@ -472,7 +473,7 @@ h3 {
   .wrapper-color-switch{
     position:absolute;
     bottom:0;
-    left :1320px;
+    right:0;
   }
   .wrapper{
     display:flex;
