@@ -525,9 +525,11 @@ h3 {
   }
   
   .container .title{
+    width:30%;
     margin-left: auto;
     margin-right: auto;
     display: table;
+    font-size:20px;
   }
   
   .blog .container{
@@ -543,6 +545,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     display: table;
+    font-size:20px;
   }
   
   .blog-img{
@@ -556,6 +559,13 @@ h3 {
     margin-right: auto;
     display: table;
     
+  }
+  
+  .paragraph{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
   }
 }
 
