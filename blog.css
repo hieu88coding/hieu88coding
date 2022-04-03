@@ -486,13 +486,18 @@ h3 {
 }
 
 
-@media only screen and (min-width:600px) and (max-width:960px){
+@media only screen and (max-width:960px){
+  header{
+    height:200px;
+  }
+  
   .checkbtn{
     display:block;
   }
   
   .brand{
     padding-left:0;
+    font-size:25px;
   }
   
   .navbar-nav{
@@ -522,11 +527,18 @@ h3 {
   }
   
   .container .title{
-    width:40%;
+    width:60%;
     margin-left: auto;
     margin-right: auto;
     display: table;
-    font-size:20px;
+  }
+  
+  .container .title h2{
+    font-size:25px;
+  }
+  
+  .container .title p{
+    font-size:15px;
   }
   
   .blog .container{
@@ -564,6 +576,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     display: table;
+    font-size:18px;
   }
 }
 
