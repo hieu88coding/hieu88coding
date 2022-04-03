@@ -494,6 +494,10 @@ h3 {
   .brand{
     padding-left:0;
   }
+  
+  .container{
+    width:auto;
+  }
   .navbar-nav{
     position:fixed;
     width:100%;
@@ -535,13 +539,18 @@ h3 {
   }
   
   .blog-item{
+    width:100%;
     margin-left: auto;
     margin-right: auto;
     display: table;
   }
   
+  .blog-img{
+    width:100%;
+  }
+  
   .blog-img img{
-     width:70vw;
+    width:70vw;
     max-height:35vh;
     margin-left: auto;
     margin-right: auto;
