@@ -530,8 +530,8 @@ h3 {
   }
   
   .blog .container{
-   width:100%;
-    padding:0;
+   width:100% !important;
+  padding:0;
   }
   .blog{
     width:100%;
@@ -555,11 +555,12 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     display: table;
-    
   }
-  
+  .blog-time{
+    padding-left:20px;
+  }
   .paragraph{
-    width:50%;
+    width:80%;
     margin-left: auto;
     margin-right: auto;
     display: table;
