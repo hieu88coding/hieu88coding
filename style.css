@@ -523,13 +523,14 @@ h3 {
   
 }
 
-@media only screen and (min-width:600px) and (max-width:960px){
+@media only screen and (max-width:960px){
   .checkbtn{
     display:block;
   }
   
   .brand{
     padding-left:0;
+    font-size:25px;
   }
   .navbar-nav{
     position:fixed;
@@ -542,6 +543,7 @@ h3 {
     background:#2c3e50;
   }
   .navbar-nav a{
+    width:100% !important;
     display:block;
   }
   
