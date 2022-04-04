@@ -523,11 +523,11 @@ h3 {
   }
   
   .wrapper-color-switch{
-    position:relative;
+    position:absolute;
     top:210px;
     margin-left: auto;
     margin-right: auto;
-    display: none;
+    bottom:0;
   }
   
   .container .title{
