@@ -547,6 +547,10 @@ h3 {
     display:block;
   }
   
+  .navbar-nav a:hover::after{
+    width:100%;
+  }
+  
   #check:checked ~ .navbar-nav{
     left:-100%;
   }
@@ -557,6 +561,10 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     display: table;
+  }
+  
+  input[type ="text"]{
+    width:80%;
   }
   
   .design-item{
