@@ -576,10 +576,10 @@ h3 {
   }
   .paragraph{
     width:80%;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left:20px;
     display: inline-block;
     font-size:18px;
+    
   }
 }
 
