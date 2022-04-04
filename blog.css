@@ -509,6 +509,7 @@ h3 {
     text-align:center;
     transition: all .5s;
     background:#2c3e50;
+    z-index:2;
   }
   .navbar-nav a{
     display:block;
@@ -525,6 +526,7 @@ h3 {
   .wrapper-color-switch{
   align-items: center;
   justify-content: center;
+  z-index:1;
   }
   
   
