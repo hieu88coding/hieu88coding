@@ -584,6 +584,23 @@ h3 {
     display: flex;
     justify-content:center;
   }
+  
+  .display{
+    width:100%;
+  }
+  
+  .wrapper.active .display-part{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+  }
+  
+  
+  .feeling {
+    left: 80%;
+    font-size: 28px;
+    
+}
 }
 
 
