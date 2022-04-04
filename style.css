@@ -586,7 +586,7 @@ h3 {
   }
   
   .display{
-    width:100%;
+    width:50%;
   }
   
   .wrapper.active .display-part{
@@ -594,14 +594,15 @@ h3 {
     flex-direction:column;
     width:100% !important;
     margin:0;
+    height:80vh;
   }
   
   
   .feeling {
-    left: 80%;
+    
     font-size: 28px;
     
-}
+  }
 }
 
 
