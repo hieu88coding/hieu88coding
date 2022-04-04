@@ -473,7 +473,7 @@ h3 {
 }
 
 
-@media only screen and (min-width:1056px) and (max-width:1728px){
+@media only screen and (min-width:1025px) and (max-width:1728px){
   .checkbtn{
     display:none;
   }
@@ -523,7 +523,7 @@ h3 {
   
 }
 
-@media only screen and (max-width:960px){
+@media only screen and (max-width:1024px){
   .checkbtn{
     display:block;
   }
@@ -558,7 +558,7 @@ h3 {
   
   .wrapper-color-switch{
     position:relative;
-    top:800px;
+    top:80vh;
     margin-left: auto;
     margin-right: auto;
     display: table;
