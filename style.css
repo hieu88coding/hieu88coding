@@ -557,7 +557,7 @@ h3 {
   
   .wrapper-color-switch{
     position:relative;
-    top:210px;
+    top:800px;
     margin-left: auto;
     margin-right: auto;
     display: table;
@@ -589,6 +589,7 @@ h3 {
     width:50%;
     margin-left: auto;
     margin-right: auto;
+    font-size:21
   }
   
   .wrapper.active .display-part{
@@ -602,11 +603,15 @@ h3 {
   
   .feeling {
     position:relative;
-    font-size: 28px;
+    font-size: 21px;
     width:50%;
     margin-left: auto;
     margin-right: auto;
+    left:0;
+    padding-top:20px;
   }
+  
+  .wrapper.active .display-part 
 }
 
 
