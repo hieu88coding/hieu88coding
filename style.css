@@ -541,6 +541,7 @@ h3 {
     text-align:center;
     transition: all .5s;
     background:#2c3e50;
+    z-index: 2;
   }
   .navbar-nav a{
     width:100% !important;
@@ -589,7 +590,7 @@ h3 {
     width:50%;
     margin-left: auto;
     margin-right: auto;
-    font-size:21
+    font-size:24px;
   }
   
   .wrapper.active .display-part{
@@ -603,7 +604,7 @@ h3 {
   
   .feeling {
     position:relative;
-    font-size: 21px;
+    font-size: 24px;
     width:50%;
     margin-left: auto;
     margin-right: auto;
@@ -611,8 +612,9 @@ h3 {
     padding-top:20px;
   }
   
-  .wrapper.active .display-part 
+  .wrapper.active .arrow span{
+    font-size:21px;
+  }
+
 }
-
-
 
