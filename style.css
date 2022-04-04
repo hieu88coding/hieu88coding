@@ -587,6 +587,8 @@ h3 {
   
   .display{
     width:50%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .wrapper.active .display-part{
@@ -594,14 +596,16 @@ h3 {
     flex-direction:column;
     width:100% !important;
     margin:0;
-    height:80vh;
+    
   }
   
   
   .feeling {
-    
+    position:relative;
     font-size: 28px;
-    
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
