@@ -574,8 +574,8 @@ h3 {
   }
   
   .blog-img img{
-    width:70vw;
-    max-height:35vh;
+    width:60vw;
+    max-height:50vh;
     margin-left: auto;
     margin-right: auto;
     display: table;
@@ -585,7 +585,7 @@ h3 {
   }
   .paragraph{
     width:80%;
-    padding-left:20px;
+    padding-left:15vw;
     display: inline-block;
     font-size:18px;
     
