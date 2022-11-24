@@ -15,7 +15,7 @@
 
 body {
   overflow-x: hidden;
-  background-color: var(--clr-background);
+  background-color: var(#f0f8ff);
   color: var(--clr-gray);
   font-size: var(--font-size);
   line-height: 1.4;
@@ -32,10 +32,10 @@ body {
 .navbar {
   background: rgba(0, 0, 0, 0.6);
   padding-top: 1.2rem;
-  padding-bottom:1.2rem;
-  height:80px;
-  width:100%;
-  margin:0;
+  padding-bottom: 1.2rem;
+  height: 80px;
+  width: 100%;
+  margin: 0;
 }
 
 .container {
@@ -44,35 +44,35 @@ body {
   padding: 0 1.2rem;
 }
 
-.checkbtn{
-  font-size:30px;
-  color:#f0f8ff;
-  float:right;
-  line-height:80px;
-  cursor:pointer;
+.checkbtn {
+  font-size: 30px;
+  color: #f0f8ff;
+  float: right;
+  line-height: 80px;
+  cursor: pointer;
 }
 
-#check{
-  display:none;
+#check {
+  display: none;
 }
 
 
 .navbar-nav {
-  float:right;
-  position:relative;
-  padding-top:12px;
-  
-  
+  float: right;
+  position: relative;
+  padding-top: 12px;
+
+
 }
 
 .container::after {
   content: "";
   clear: both;
-  display:table;
+  display: table;
 }
 
 .navbar-nav a {
-  position:relative;
+  position: relative;
   text-transform: uppercase;
   font-family: var(--Roboto);
   letter-spacing: 1px;
@@ -80,113 +80,162 @@ body {
   text-decoration: none;
   display: inline-block;
   transition: opacity 0.5s ease;
-  font-size:25px;
-  padding:10px;
-  
-  
+  font-size: 25px;
+  padding: 10px;
+
+
 }
 
-.navbar-nav a::after{
+.navbar-nav a::after {
   content: "";
-    position: absolute;
-    display: block;
-    height: 0.4em;
-    width: 0%;
-    background-color: #80ffff;
-    bottom: -0.2em;
-    transition: all ease-in-out 250ms;
+  position: absolute;
+  display: block;
+  height: 0.4em;
+  width: 0%;
+  background-color: #80ffff;
+  bottom: -0.2em;
+  transition: all ease-in-out 250ms;
 }
+
 .navbar-nav a:hover::after {
-    width: 60%;
-  }
+  width: 60%;
+}
 
 .navbar-nav a:hover {
-    color: #80ffff;
-  }
-
-
-.banner{
-  margin-top:50px;
+  color: #80ffff;
 }
 
-.brand {
-  float:left;
-  font-size: 35px;
-  font-family: var(--Playfair);
-  line-height:80px;
-  color: #f0f8ff;
-  padding:0 100px;
-  
-}
-
-.blogname {
-  visibility:hidden;
-  margin:0 auto;
-  max-width:800px;
-  font-family: var(--Playfair);
-  display: block;
-  text-align: center;
-  font-size:35px;
-
-}
-
-
-.blog-img img{
-  max-width:960px;
-  max-height:480px;
-  display:block;
-  margin:0 auto;
-  
-}
-
-.blog-img img:hover{
-  transform: scale(0.8);
-  transition:transform 0.5s ease;
-}
-
-
-.blog-item{
-  font-size:25px;
-  font-weight:400;
-  
-}
-
-.blog-item p{
-  font-style:italic;
-  margin :1.2rem;
-  text-align:center;
-}
-
-.blog-time {
-  max-width:960px;
-  margin:0 auto;
-  font-style:italic;
-}
-
-.paragraph{
-  max-width:960px;
-  margin : 0 auto;
-}
-.paragraph div{
-  padding: 1.2rem;
-}
-
-.paragraph a{
-  color: red;
-  text-decoration : none;
-  font-style: italic;
-}
 
 header {
   height: 300px;
-  max-width:1920px;
-  background:linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)), 
-    url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
-      center/ cover no-repeat fixed; 
+  max-width: 1920px;
+  background: #f0f8ff center/ cover no-repeat fixed;
   display: block;
   flex-direction: column;
   justify-content: stretch;
 }
+
+
+.banner {
+  margin-top: 50px;
+}
+
+.brand {
+  float: left;
+  font-size: 35px;
+  font-family: var(--Playfair);
+  line-height: 80px;
+  color: #f0f8ff;
+  padding: 0 100px;
+
+}
+
+.blog {
+  background: #f0f8ff;
+  padding: 4.5rem 0;
+}
+
+.blog .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+.blog-content{
+  background-color: #ffffff;
+}
+
+.recent-post {
+  background-color: #ffffff;
+  width: 20vw;
+  position:absolute;
+  right:3vw;
+  top:505px;
+}
+
+.recent-post h3{
+  text-align: center;
+}
+
+.recent-post div {
+  font-family: var(--Playfair);
+  font-size: 1.2rem;
+  color: #121212;
+}
+
+.recent-post div :hover{
+  font-size:1.4rem;
+}
+
+.recent-post a{
+  color:#121212;
+}
+
+.soundcloud{
+  position:absolute;
+  top:505px;
+  left:3vw;
+}
+.blogname {
+  visibility: hidden;
+  margin: 0 auto;
+  max-width: 800px;
+  font-family: var(--Playfair);
+  display: block;
+  text-align: center;
+  font-size: 35px;
+
+}
+
+
+.blog-img img {
+  max-height: 480px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding-top:20px;
+}
+
+.blog-img img:hover {
+  transform: scale(0.8);
+  transition: transform 0.5s ease;
+}
+
+
+.blog-item {
+  font-size: 1.2em;
+  font-weight: 400;
+
+}
+
+.blog-item p {
+  font-style: italic;
+  margin: 1.2rem;
+  text-align: center;
+}
+
+.blog-time {
+  max-width: 960px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.paragraph {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.paragraph div {
+  padding: 1.2rem;
+}
+
+.paragraph a {
+  color: red;
+  text-decoration: none;
+  font-style: italic;
+}
+
+
 
 
 .title {
@@ -204,21 +253,14 @@ header {
   padding: 0.6rem 0;
 }
 
-
-
-
-.blog{
-background:linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)), 
-    url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
-      center/ cover no-repeat fixed;
- padding: 4.5rem 0;
+.fb-comment{
+  display: inline-block;
 }
 
-.blog .container{
-  margin-left: auto;
-  margin-right: auto;
-  display: table;
-}
+
+
+
+
 
 
 
@@ -248,55 +290,8 @@ footer {
   transition: all 0.5s ease;
 }
 
-.avatar {
-  position: relative;
-}
 
-.avatar img {
-  width: 300px;
-  height: 300px;
-}
 
-.noidung {
-  max-width: 1236px;
-  margin: -310px 21px 0 336px;
-  top: 0px;
-}
-
-h3 {
-  margin-top: 1.2rem;
-}
-
-.h3content {
-  padding: 1.2rem;
-  font-size: 20px;
-}
-
-.h3content img {
-  width: 1200px;
-  height: 720px;
-  margin-top: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.h3content i {
-  border: 1.2px solid white;
-  margin: 0 181px 0 422px;
-}
-.design-list {
-  font-size: 20px;
-  text-align: center;
-}
-
-.list {
-  padding: 0;
-  margin: 10px;
-}
-
-.list a {
-  text-decoration: none;
-  color:blue;
-}
 
 
 
@@ -305,31 +300,23 @@ h3 {
 /*dark mode colors class*/
 .dark-mode {
   --clr-background: #263238;
-  --clr-base: black;
+  --clr-base: #121212;
   --clr-primary: #ffffff;
   --clr-gray: #e0f7fa;
 }
 
-.dark-mode header{
-  background:linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(https://wallpaperaccess.com/full/415831.jpg)
-      center/ cover no-repeat fixed; 
+.dark-mode header {
+  background-color: #121212;
 }
 
-.dark-mode .blog{
-  background-image:linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(https://wallpaperaccess.com/full/415831.jpg);
-  background-position:center/cover;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+.dark-mode .banner {
+  color: #121212;
+}
 
-  
+.dark-mode .blog {
+  background: #121212;
+
+
 }
 
 
@@ -375,18 +362,19 @@ h3 {
   width: 12em;
   left: -8em;
   top: 0.4em;
-  font-size:20px;
-  font-weight:500;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /*animate circle toggle if switch is on*/
-#input-color-switch:checked ~ label .color-switch-toggle {
+#input-color-switch:checked~label .color-switch-toggle {
   transform: translatex(2em);
 }
 
 /*change text of before if switch is on*/
-#input-color-switch:checked ~ .color-switch::before {
+#input-color-switch:checked~.color-switch::before {
   content: "Dark Mode On";
+  color: #f0f8ff;
 }
 
 /*hide input*/
@@ -396,207 +384,206 @@ h3 {
 
 
 
-.gallery{
-  width:80%;
+.gallery {
+  width: 80%;
   margin: 100px auto 50px;
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  grid-gap:30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
 }
 
-.gallery img{
-  width:100%;
-  cursor:pointer;
-  height:208px;
+.gallery img {
+  width: 100%;
+  cursor: pointer;
+  height: 208px;
   object-fit: cover;
 }
 
-.gallery img:hover{
+.gallery img:hover {
   transform: scale(0.8);
-  transition:transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
-.full-img{
-  width:100%;
-  height:100vh;
-  background:rgba(0,0,0,0.9);
-  position:fixed;
-  top:0;
-  left:0;
-  display:none;
-  align-items:center;
-  justify-content:center;
-  z-index:100;
-}
-
-.full-img img{
-  width:90%;
-  max-width:1200px;
-}
-
-.full-img span{
-  position:absolute;
-  top:5%;
-  right:5%;
-  font-size:30px;
-  color:#ffffff;
-  cursor:pointer;
-}
-
-.album-name{
-  max-width:960px;
-  margin : 0 auto;
-  text-align:center;
-}
-
-
-
-@media only screen and (min-width:1056px) and (max-width:1728px){
-  
-  .navbar-nav{
-   margin:0;
-   font-size:20px;
-  }
-  
-  .brand{
-    padding-left:0;
-    
-  }
-  .banner .container{
-    width:100%;
-    padding:0;
-    position:relative;
-    margin-left:0;
-    margin-right:0;
-    display:flex;
-    align-items:center;
-    
-  }
-  .blogname{
-  margin-left: auto;
-  margin-right: auto;
-  display: table;
-  }
-  
-  .wrapper-color-switch{
-    position:absolute;
-    bottom:0;
-    right:0;
-  }
-}
-
-
-@media only screen and (max-width:960px){
-  header{
-    height:200px;
-  }
-  
-  .checkbtn{
-    display:block;
-  }
-  
-  .brand{
-    padding-left:0;
-    font-size:25px;
-  }
-  
-  .navbar-nav{
-    position:fixed;
-    width:100%;
-    height:100vh;
-    top:115px;
-    left:0;
-    text-align:center;
-    transition: all .5s;
-    background:#2c3e50;
-    z-index:2;
-  }
-  .navbar-nav a{
-    display:block;
-  }
-  
-  .navbar-nav a:hover::after{
-    width:100%;
-  }
-  
-  #check:checked ~ .navbar-nav{
-    left:-100%;
-  }
-  
-  .wrapper-color-switch{
+.full-img {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
   align-items: center;
   justify-content: center;
-  z-index:1;
-  }
-  
-  
-  .color-switch::before{
-    font-size:15px;
-    display:none;
-  }
-  
-  .container .title{
-    width:60%;
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
-  }
-  
-  .container .title h2{
-    font-size:25px;
-  }
-  
-  .container .title p{
-    font-size:15px;
-  }
-  
-  .blog .container{
-  width:100% !important;
-  padding:0;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-  }
-  .blog{
-    width:100%;
-  }
-  
-  .blog-item{
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    font-size:20px;
-  }
-  
-  .blog-img{
-    width:100%;
-  }
-  
-  .blog-img img{
-    width:60vw;
-    max-height:50vh;
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
-  }
-  .blog-time{
-    padding-left:20px;
-  }
-  .paragraph{
-    width:80%;
-    padding-left:15vw;
-    display: inline-block;
-    font-size:18px;
-    
-  }
+  z-index: 100;
+}
+
+.full-img img {
+  width: 90%;
+  max-width: 1200px;
+}
+
+.full-img span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.album-name {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
 
+@media only screen and (min-width:1056px) and (max-width:1728px) {
+
+  .navbar-nav {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .brand {
+    padding-left: 0;
+
+  }
+
+  .banner .container {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .blogname {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
 
 
 
+  .wrapper-color-switch {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
 
 
+@media only screen and (max-width:960px) {
+  header {
+    height: 200px;
+  }
 
+  .checkbtn {
+    display: block;
+  }
+
+  .brand {
+    padding-left: 0;
+    font-size: 25px;
+  }
+
+  .navbar-nav {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 115px;
+    left: 0;
+    text-align: center;
+    transition: all .5s;
+    background: #2c3e50;
+    z-index: 2;
+  }
+
+  .navbar-nav a {
+    display: block;
+  }
+
+  .navbar-nav a:hover::after {
+    width: 100%;
+  }
+
+  #check:checked~.navbar-nav {
+    left: -100%;
+  }
+
+  .wrapper-color-switch {
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+
+  .color-switch::before {
+    font-size: 15px;
+    display: none;
+  }
+
+  .container .title {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
+
+  .container .title h2 {
+    font-size: 25px;
+  }
+
+  .container .title p {
+    font-size: 15px;
+  }
+
+  .blog .container {
+    width: 100% !important;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog-item {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .blog-img {
+    width: 100%;
+  }
+
+  .blog-img img {
+    width: 60vw;
+    max-height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
+
+  .blog-time {
+    padding-left: 20px;
+  }
+
+  .paragraph {
+    width: 80%;
+    padding-left: 15vw;
+    display: inline-block;
+    font-size: 18px;
+
+  }
+}

@@ -242,6 +242,39 @@ input[type ="text"]{
   font-style:italic;
 }
 
+.introduce{
+  height:1280px;
+  background-image: url('porforlio.png');
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.introduce h2{
+  display: inline-block;
+  width: 30%;
+  padding: 1.4rem;
+  font-family: var(--Playfair);
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+
+.introduce h2 a{
+  font-family: var(--Playfair);
+  font-size: 1.2rem;
+  font-style: italic;
+  color:#f2f2f2;
+
+}
+
+.introduce h2 a:hover{
+  transition: all .4s ease;
+  font-size: 1.4rem;
+}
+
+
 
 .design {
   padding: 4.5rem 0;
@@ -262,7 +295,10 @@ input[type ="text"]{
   padding: 0.6rem 0;
 }
 
+
+
 .design .container{
+  position:relative;
   padding:0;
   margin-left: auto;
   margin-right: auto;
@@ -341,56 +377,9 @@ footer {
   margin: 0 0.3rem;
   transition: all 0.5s ease;
 }
+  
 
-.avatar {
-  position: relative;
-}
 
-.avatar img {
-  width: 300px;
-  height: 300px;
-}
-
-.noidung {
-  max-width: 1236px;
-  margin: -310px 21px 0 336px;
-  top: 0px;
-}
-
-h3 {
-  margin-top: 1.2rem;
-}
-
-.h3content {
-  padding: 1.2rem;
-  font-size: 20px;
-}
-
-.h3content img {
-  width: 1200px;
-  height: 720px;
-  margin-top: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.h3content i {
-  border: 1.2px solid white;
-  margin: 0 181px 0 422px;
-}
-.design-list {
-  font-size: 20px;
-  text-align: center;
-}
-
-.list {
-  padding: 0;
-  margin: 10px;
-}
-
-.list a {
-  text-decoration: none;
-  color:	#ffb6c1;
-}
 
 
 
