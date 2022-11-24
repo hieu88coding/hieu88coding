@@ -1,0 +1,609 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Quicksand:wght@300;400;500&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+
+:root {
+  --Playfair: "Playfair Display", serif;
+  --Quicksand: "Quicksand", sans-serif;
+  --Roboto: "Roboto", sans-serif;
+  --clr-background: #eceff1;
+  --clr-base: #ffffff;
+  --clr-primary: #1a1a1a;
+  --clr-gray: #263238;
+  --font-size: 16px;
+  --border-radius: 0.2em;
+}
+
+
+body {
+  overflow-x: hidden;
+  background-color: var(--clr-background);
+  color: var(--clr-gray);
+  font-size: var(--font-size);
+  line-height: 1.4;
+  position: relative;
+  margin:0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--Quicksand);
+}
+
+.container {
+  width:auto;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+header {
+  height: 1080px;
+  max-width:1920px;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+    url(https://www.wallpaperflare.com/static/369/332/935/anime-girls-clear-blue-sky-wallpaper.jpg)
+      center/ cover no-repeat fixed; 
+  display: block;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+
+.checkbtn{
+  font-size:30px;
+  color:#f0f8ff;
+  float:right;
+  line-height:80px;
+  cursor:pointer;
+}
+
+#check{
+  display:none;
+}
+
+
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 1.2rem;
+  padding-bottom:1.2rem;
+  height:80px;
+  width:100%;
+  margin:0;
+}
+
+.navbar-nav {
+  float:right;
+  position:relative;
+  padding-top:12px;
+  
+  
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display:table;
+}
+
+.navbar-nav a {
+  position:relative;
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+  letter-spacing: 1px;
+  color: #f0f8ff;
+  text-decoration: none;
+  display: inline-block;
+  transition: opacity 0.5s ease;
+  font-size:25px;
+  padding:10px;
+  
+  
+}
+
+.navbar-nav a::after{
+  content: "";
+    position: absolute;
+    display: block;
+    height: 0.4em;
+    width: 0%;
+    background-color: #80ffff;
+    bottom: -0.2em;
+    transition: all ease-in-out 250ms;
+}
+.navbar-nav a:hover::after {
+    width: 80%;
+  }
+
+.navbar-nav a:hover {
+    color: #80ffff;
+  }
+
+
+.banner{
+  margin-top:50px;
+}
+
+.brand {
+  float:left;
+  font-size: 35px;
+  font-family: var(--Playfair);
+  line-height:80px;
+  color: #f0f8ff;
+  padding:0 100px;
+  
+}
+
+.blogname {
+  margin:0 auto;
+  max-width:800px;
+  font-family: var(--Playfair);
+  display: block;
+  text-align: center;
+  font-size:35px;
+
+}
+
+
+
+
+input[type ="text"]{
+  display:block;
+  font-size: 20px;
+  width: 600px;
+  height: 50px;
+  border:none;
+  border-radius: 2px;
+  padding: 10px 10px;
+  margin:0 auto;
+}
+
+.display {
+  font-size: 30px;
+  text-align:left;
+  position:relative;
+}
+
+.wrapper .arrow {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  margin-top:50px;
+}
+
+.wrapper.active .arrow{
+  margin-left:50px;
+}
+
+.wrapper .arrow span{
+  font-size: 30px;
+  font-family:var(--Playfair);
+}
+
+
+.wrapper .arrow i{
+  font-size:30px;
+  border-style:inset;
+  border-color:#d9d9d9;
+  left:0;
+  
+}
+
+.wrapper.active .arrow i{
+  margin-left: 0;
+  font-size:30px;
+}
+.head{
+  font-style: italic;
+  color:var(--clr-base);
+}
+
+.degree{
+  font-style: italic;
+  color:var(--clr-base);
+}
+
+.numb{
+  font-style: italic;
+  color:var(--clr-base);
+}
+
+.wrapper .input-part{
+  margin: 20px 25px 30px;
+}
+.wrapper.active .input-part{
+  display: none;
+}
+
+.wrapper .display-part{
+  display: none;
+}
+.wrapper.active .display-part{
+  text-align:left;
+  display: flex;
+  margin-left:50px;
+  margin-top:100px;
+  flex-direction: column;
+  transition-delay :0.5s;
+  
+}
+
+.feeling{
+ position:absolute;
+ left:600px;
+ font-size:28px;
+}
+
+#new-weather{
+  color:var(--clr-base);
+  font-style:italic;
+}
+
+#music_feel a{
+  color:var(--clr-base);
+  text-decoration:none;
+  font-style:italic;
+}
+
+.introduce{
+  height:1280px;
+  background-image: url('porforlio.png');
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.introduce h2{
+  display: inline-block;
+  width: 30%;
+  padding: 1.4rem;
+  font-family: var(--Playfair);
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+
+.introduce h2 a{
+  font-family: var(--Playfair);
+  font-size: 1.2rem;
+  font-style: italic;
+  color:#f2f2f2;
+
+}
+
+.introduce h2 a:hover{
+  transition: all .4s ease;
+  font-size: 1.4rem;
+}
+
+
+
+.design {
+  padding: 4.5rem 0;
+}
+
+.title {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.title h2 {
+  font-family: var(--Playfair);
+  font-size: 2.4rem;
+}
+
+.title p {
+  text-transform: uppercase;
+  padding: 0.6rem 0;
+}
+
+
+
+.design .container{
+  position:relative;
+  padding:0;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.design-content {
+  margin: 2rem 0;
+}
+
+.design-item {
+  cursor: pointer;
+  margin: 1.5rem 0;
+}
+
+.design-img {
+  max-width: 960px;
+  max-height: 480px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  display:flex;
+  justify-content: center;
+}
+
+.design-img::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+}
+
+.design-img img {
+  transition: all 0.5s ease;
+  
+}
+
+.design-item :hover img {
+  transform: scale(1.2);
+}
+
+.design-title {
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.design-title a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem 0;
+  bottom: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+
+.social-links a {
+  border: 2px solid #f0f8ff;
+  color: #f0f8ff;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+}
+  
+
+
+
+
+
+
+
+/*dark mode colors class*/
+.dark-mode {
+  --clr-background: #263238;
+  --clr-base: black;
+  --clr-primary: #ffffff;
+  --clr-gray: #e0f7fa;
+}
+
+.dark-mode header{
+  background:linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg)
+      center/ cover no-repeat fixed; 
+}
+
+
+
+/*container that holds the switch*/
+.wrapper-color-switch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+/*label for switch that is interactive*/
+.color-switch {
+  width: 4em;
+  height: 2em;
+  border-radius: 10em;
+  background: var(--clr-base);
+  border: 2px solid var(--clr-primary);
+  position: absolute;
+  cursor: pointer;
+}
+
+/*circle toggle that animates backward and forward*/
+.color-switch-toggle {
+  width: 1.6em;
+  height: 1.6em;
+  background: var(--clr-primary);
+  position: absolute;
+  border-radius: 10em;
+  top: 0.2em;
+  left: 0.2em;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+/*text label that indicates switch state
+//light by default*/
+.color-switch::before {
+  content: "Light Mode On";
+  position: absolute;
+  display: inline-block;
+  width: 12em;
+  left: -8em;
+  top: 0.4em;
+  font-size:20px;
+  font-weight:500;
+}
+
+/*animate circle toggle if switch is on*/
+#input-color-switch:checked ~ label .color-switch-toggle {
+  transform: translatex(2em);
+}
+
+/*change text of before if switch is on*/
+#input-color-switch:checked ~ .color-switch::before {
+  content: "Dark Mode On";
+}
+
+/*hide input*/
+#input-color-switch {
+  display: none;
+}
+
+
+@media only screen and (min-width:1025px) and (max-width:1728px){
+  .checkbtn{
+    display:none;
+  }
+  
+  .navbar-nav{
+   margin:0;
+   font-size:20px;
+  }
+  
+  .brand{
+    padding-left:0;
+    
+  }
+  .banner .container{
+    width:100%;
+    padding:0;
+    position:relative;
+    margin-left:0;
+    margin-right:0;
+    display:flex;
+    align-items:center;
+    
+  }
+  .blogname{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  }
+  
+  .wrapper-color-switch{
+    position:absolute;
+    bottom:0;
+    right:0;
+  }
+  .imput-part{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
+  
+  .display-part{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
+  
+  
+}
+
+@media only screen and (max-width:1024px){
+  .checkbtn{
+    display:block;
+  }
+  
+  .brand{
+    padding-left:0;
+    font-size:25px;
+  }
+  .navbar-nav{
+    position:fixed;
+    width:100%;
+    height:100vh;
+    top:115px;
+    left:0;
+    text-align:center;
+    transition: all .5s;
+    background:#2c3e50;
+    z-index: 2;
+  }
+  .navbar-nav a{
+    width:100% !important;
+    display:block;
+  }
+  
+  .navbar-nav a:hover::after{
+    width:100%;
+  }
+  
+  #check:checked ~ .navbar-nav{
+    left:-100%;
+  }
+  
+  .wrapper-color-switch{
+    position:relative;
+    top:80vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
+  
+  input[type ="text"]{
+    width:80%;
+  }
+  
+  .design-item{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
+  
+  .design-img{
+    width:70vw;
+    max-height:35vh;
+  }
+  
+  .design-img img{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:center;
+  }
+  
+  .display{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:24px;
+  }
+  
+  .wrapper.active .display-part{
+    display:flex;
+    flex-direction:column;
+    width:100% !important;
+    margin:0;
+    
+  }
+  
+  
+  .feeling {
+    position:relative;
+    font-size: 24px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    padding-top:20px;
+  }
+  
+  .wrapper.active .arrow span{
+    font-size:21px;
+  }
+
+}
+

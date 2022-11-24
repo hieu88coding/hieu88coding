@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://kit.fontawesome.com/18ccb29eed.js" crossorigin="anonymous"></script>
+    
+    <title>Hiếu Cao Blog</title>
+    
+
+    <link rel="stylesheet" href ="/blog.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    
+  </head>
+  <body>
+    
+    
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0" nonce="HXEhqNrU"></script>
+    <header>
+      <nav class ="navbar">
+      <div class = "container">
+        <input type ="checkbox" id ="check" checked="checked">
+        <label for= "check" class ="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href ="index.html" class ="brand">Blog của Hiếu</a>
+        <div class ="navbar-nav">
+          <a href ="index.html">Home</a>
+          <a href ="about.html ">About</a>
+          <a href ="blog.html ">Blog</a>
+          <a href ="music.html">Music</a>
+        </div>
+      </div>
+    </nav>
+      <div class ="banner">
+        <div class ="container">
+          <h1 class ="blogname">
+            Chào mừng đến với Blog của mình
+          </h1>
+          <div class="wrapper-color-switch">
+           <input type="checkbox" id="input-color-switch">
+             <label for="input-color-switch" class="color-switch">
+              <div class="color-switch-toggle"></div>
+             </label>
+          </div>
+          </div>
+        
+      </div>
+      <script src ="colorSwitch.js"></script>
+    </header>
+    
+    <section class ="blog">
+      <div class = "container">
+        <div class ="title">
+          <h2>
+            Ngài Tom
+          </h2>
+          <p>
+            
+          </p>
+        </div>
+        
+        <div class ="blog-content">
+         <div class="blog-item">
+          <div class= "blog-img">
+            <img src ="https://i.postimg.cc/kXxsdhdk/IMG-0245.jpg">
+           </div>
+          <p>
+             Tom và vương quốc của Ngài
+            </p>
+            
+           
+            <div class="album-name">
+              Tom "the chonky boi" Cat Album.
+            </div>
+           
+           
+           <div class ="full-img" id="full-img-box">
+             <img src ="https://i.postimg.cc/MpmxFLN7/1647231708186.jpg" id ="full-img">
+             <span onclick ="closeFullImg()">X</span>
+           </div>
+           
+           <div class ="gallery">
+             <img src ="https://i.postimg.cc/MpmxFLN7/1647231708186.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/65wMctdS/1647231708106.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/Df5GVT9R/1647231708196.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/DyJwC3nr/1647231708022.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/ZqpS3JPR/1647231708172.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/6Q5P6wHg/1647231708098.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/BbGc6BSb/1647231708129.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/BbNxXRQ6/IMG-0060.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/xCBdgRxR/IMG-0071.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/k4Wr3vMw/IMG-1799.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/gjpCYLnp/IMG-1042.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/VNLBcfYh/IMG-0513.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/TYMV3qdg/IMG-1974.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/VsWtzS6k/1647231708252.jpg" onclick ="openFullImg(this.src)">
+             <img src ="https://i.postimg.cc/T3VMsX0F/1647231708019.jpg" onclick ="openFullImg(this.src)">
+             
+      <script>
+             var fullImgBox =document.getElementById('full-img-box')
+             var fullImg = document.getElementById('full-img')
+             
+             function openFullImg(pic){
+               fullImgBox.style.display ="flex";
+               fullImg.src =pic;
+             }
+        
+             function closeFullImg(){
+               fullImgBox.style.display ="none";
+             }
+      </script>
+        
+             
+             
+             
+           </div>
+        </div>
+          <div class ="paragraph">
+            <div class="fb-comments" data-href="https://hieu-personal-blog.glitch.me/TomtheCat.html" data-width="960" data-numposts="5"></div>
+          </div>
+          
+      </div>
+      </div>
+      
+  </section>
+  
+  <footer>
+    <div class ="social-links">
+    <a href =" https://www.facebook.com/profile.php?id=100008310914900"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href =" https://www.instagram.com/bhie_u_/"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href =" https://www.youtube.com/channel/UCd8atB-nBev3PW6HsfLh_nQ/playlists"><i class="fab fa-youtube fa-2x"></i></a>
+  </div>
+    
+
+
+  </footer>
+  
+      
+        
+    
+  </body>
+</html>

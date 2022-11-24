@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://kit.fontawesome.com/18ccb29eed.js" crossorigin="anonymous"></script>
+
+
+  <title>About</title>
+
+  <link rel="stylesheet" href="/about.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <input type="checkbox" id="check" checked="checked">
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href="index.html" class="brand">Blog của Hiếu</a>
+        <div class="navbar-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html ">About</a>
+          <a href="blog.html ">Blog</a>
+          <a href="music.html">Music</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="subnav">
+    <div class="subnav-content">
+      <button onclick="myFunction(1)" class="subnav-nav">Lí lịch
+      </button>
+      <div id="1">
+        <ul>Họ tên: Nguyễn Cao Bảo Hiếu</ul>
+        <ul>Ngày sinh:21/03/2002</ul>
+        <ul>Nơi ở: Hà Nội</ul>
+        <ul>Chuyên ngành: Khoa học MT - HUST</ul>
+
+      </div>
+      <button onclick="myFunction(2)" class="subnav-nav">Sở thích
+      </button>
+      <div id="2">
+        <ul>Ở nhà</ul>
+        <ul>Chơi đàn</ul>
+        <ul>Viết lách</ul>
+        <ul>Liên minh cùng ae</ul>
+      </div>
+      <button onclick="myFunction(3)" class="subnav-nav">Liên lạc
+      </button>
+      <div id="3" class="contact">
+        <ul><a href="https://www.facebook.com/profile.php?id=100008310914900">Facebook</a></ul>
+        <ul><a href=" https://www.instagram.com/bhie_u_/">Instagram</a></ul>
+        <ul><a href=" https://www.youtube.com/channel/UCd8atB-nBev3PW6HsfLh_nQ/playlists">Youtube</a></ul>
+      </div>
+      <button onclick="window.location.href='music.html' " class="subnav-nav">Nhạc
+      </button>
+      <button onclick="" class="subnav-nav">Quan tâm</button>
+      <div class="morein4">
+        <a href="Ams.html">Giấc mơ Ams</a>
+        <a href="CVAp1.html">Hồi ở Chu(phần 1)</a>
+        <a href="cvap2.html">Hồi ở Chu(phần 2)</a>
+      </div>
+
+    </div>
+    <script>
+      function myFunction(a) {
+        var x = document.getElementById(a);
+        if (x.style.display === "none") {
+          x.style.display = "inline-block";
+
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+  </section>
+  <section class="design" id="design">
+    <div class="content">
+      <img class="avatar" src="AlbumGif.gif">
+
+      <div class="noidung">
+        <h2>
+          Xin chào mọi người. Cảm ơn mọi người đã dành thời gian ghé thăm blog của mình !!
+        </h2>
+        &nbsp;
+        <div class="portfolio">
+          Đơn giản đây là nơi mình dành thời gian cho sở thích viết lách của bản thân, cũng như kết hợp với việc học và
+          thực hành làm web. Thực ra mình rất ngại chia sẻ bản thân mình với một ai khác, tuy nhiên thỉnh thoảng mình
+          lại nhớ lại những kỉ niệm, câu chuyện nhỏ, hoặc cứ khi có tâm trạng không tốt - lúc ấy mình lại muốn viết ra,
+          viết để hình dung rõ hơn kí ức, và cũng để soi tỏ bản thân mình. Ngoài sức khỏe thể chất ra thì nuôi dưỡng tâm
+          hồn của bản thân cũng là cần thiết. Thế nên mình muốn tiếp tục kể câu chuyện của mình, bởi mỗi lần tìm cảm
+          hứng viết mình lại hiểu tâm hồn mình hơn một chút. Có thể 10 năm sau, hoặc xa hơn nữa, mỗi khi chúng ta mệt
+          mỏi, khi chúng ta mất niềm tin vào bản thân, thì tâm hồn trĩu nặng vẫn còn nơi để trở về. Trở về nơi chúng ta
+          không phải lo âu cơm áo gạo tiền, trở về nơi mình mãi chẳng phải gồng mình lớn lên, và rồi viết một cách vô
+          lo. Những ngày thứ 6, ánh nắng dịu dàng từ khung cửa sổ phủ một góc bàn của thư viện, bên cạnh là lon cà phê
+          lạnh vừa mở, cắm tai nghe, tiếng bẻ khớp tay nối tiếp bởi tiếng lạch cạch của bàn phím,...
+          <p style="text-align:center;font-style:italic;font-size: 1.5rem;">"Hôm nay cậu thấy
+            thế nào?"</p>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+    </div>
+
+
+
+  </section>
+
+
+
+
+</body>
+
+</html>
