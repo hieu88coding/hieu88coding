@@ -20,6 +20,11 @@ body {
   font-size: var(--font-size);
   line-height: 1.4;
   position: relative;
+  scroll-behavior: smooth;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 * {
@@ -146,7 +151,6 @@ header {
 }
 
 .recent-post {
-  background-color: #ffffff;
   width: 20vw;
   position:absolute;
   right:3vw;
@@ -155,12 +159,21 @@ header {
 
 .recent-post h3{
   text-align: center;
+  font-style: var(--Playfair);
 }
 
 .recent-post div {
+  background-color: #ffffff;
   font-family: var(--Playfair);
   font-size: 1.2rem;
   color: #121212;
+  padding:10px;
+  border-bottom: 1px solid #121212;
+  text-align: center;
+}
+
+.recent-post div a{
+  text-decoration: none;
 }
 
 .recent-post div :hover{
@@ -197,7 +210,7 @@ header {
 }
 
 .blog-img img:hover {
-  transform: scale(0.8);
+  transform: scale(1.2);
   transition: transform 0.5s ease;
 }
 
@@ -221,7 +234,6 @@ header {
 }
 
 .paragraph {
-  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -229,11 +241,7 @@ header {
   padding: 1.2rem;
 }
 
-.paragraph a {
-  color: red;
-  text-decoration: none;
-  font-style: italic;
-}
+
 
 
 
@@ -256,6 +264,26 @@ header {
 .fb-comment{
   display: inline-block;
 }
+
+.top {
+  --offset: 800px; 
+  position: sticky;
+  bottom: 20px;  
+  left:90vw;    
+  margin-right: 10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+
+
 
 
 
@@ -299,7 +327,7 @@ footer {
 
 /*dark mode colors class*/
 .dark-mode {
-  --clr-background: #263238;
+  --clr-background:#121212;
   --clr-base: #121212;
   --clr-primary: #ffffff;
   --clr-gray: #e0f7fa;
@@ -315,9 +343,22 @@ footer {
 
 .dark-mode .blog {
   background: #121212;
-
-
 }
+
+.dark-mode .blog-content{
+ color:#121212;
+} 
+
+.dark-mode h3{
+  color:#e0f7fa;
+}
+
+.dark-mode .top{
+  background-color: #ffffff;
+  color: #121212;
+}
+
+
 
 
 

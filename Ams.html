@@ -8,9 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <script src="https://kit.fontawesome.com/18ccb29eed.js" crossorigin="anonymous"></script>
-  <script>
-    src ="code.jquery.com/jquery-3.6.1.min.js"
-  </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="http://w.soundcloud.com/player/api.js"></script>
 
   <title>Trượt Ams...</title>
 
@@ -129,7 +128,7 @@
               Đã 12h19 ngày 2/11 mất rồi, và mình đã pass ngày 1 của NNN :D. Tản mạn vài dòng rồi mai lại quay lại với
               hok hành, cảm ơn các bạn đã đọc những suy nghĩ rất random của mình. Hẹn gặp vào những lần sau. Peaceee.
             </div>
-            <div class="fb-comments" data-href="https://hieu-personal-blog.glitch.me/Ams.html" data-width="960"
+            <div class="fb-comments" data-href="https://hieu-personal-blog.glitch.me/Ams.html" data-width="600"
               data-numposts="5"></div>
           </div>
 
@@ -144,19 +143,39 @@
           <script src="recent-post.js"></script>
         </div>
 
-        
-        <div class="soundcloud"><iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/503588622&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&sharing=false"></iframe>
+        <script>
+          $(document).ready(function () {
+            var widget = SC.Widget(document.getElementById('soundcloud_widget'));
+            var randomVal;
+            widget.bind(SC.Widget.Events.READY, function () {
+              randomSong(widget);
+              widget.play();
+            });
+            function randomSong(widget) {
+              randomVal = Math.random() * 38;
+              for (i = 0; i < randomVal; i++) {
+                widget.next();
+              }
+            }
+          });
+        </script>
+
+
+        <div class="soundcloud">
+          <iframe id="soundcloud_widget" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1531594126&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
           <div
             style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
             <a href="https://soundcloud.com/nguy-n-cao-b-o-hi-u" title="h1eu0thap" target="_blank"
               style="color: #cccccc; text-decoration: none;">h1eu0thap</a> · <a
-              href="https://soundcloud.com/nguy-n-cao-b-o-hi-u/sets/chill-aye" title="chill aye" target="_blank"
-              style="color: #cccccc; text-decoration: none;">chill aye</a>
+              href="https://soundcloud.com/nguy-n-cao-b-o-hi-u/sets/k-suy-u-playlist" title="kó_suy_đâu ? playlist"
+              target="_blank" style="color: #cccccc; text-decoration: none;">kó_suy_đâu ? playlist</a>
           </div>
         </div>
 
         
+
+
 
       </div>
 
@@ -181,7 +200,7 @@
 
 
 
-
+  <a href="#" class="top">Đầu trang &#8593;</a>
 </body>
 
 </html>

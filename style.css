@@ -352,6 +352,24 @@ input[type ="text"]{
   text-decoration: none;
 }
 
+
+.top {
+  --offset: 800px; 
+  position: sticky;
+  bottom: 20px;  
+  left:90vw;    
+  margin-right: 10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
 footer {
   background: rgba(0, 0, 0, 0.6);
   padding: 1.5rem 0;
@@ -387,7 +405,7 @@ footer {
 
 /*dark mode colors class*/
 .dark-mode {
-  --clr-background: #263238;
+  --clr-background: #121212;
   --clr-base: black;
   --clr-primary: #ffffff;
   --clr-gray: #e0f7fa;
