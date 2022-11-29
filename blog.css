@@ -21,6 +21,7 @@ body {
   line-height: 1.4;
   position: relative;
   scroll-behavior: smooth;
+  height:auto;
 }
 
 html{
@@ -570,7 +571,7 @@ footer {
   }
 
   .container .title {
-    width: 60%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     display: table;
@@ -589,6 +590,7 @@ footer {
     padding: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 400px;
     display: inline-block;
   }
 
@@ -609,7 +611,7 @@ footer {
   }
 
   .blog-img img {
-    width: 60vw;
+    width: 50vw;
     max-height: 50vh;
     margin-left: auto;
     margin-right: auto;
@@ -623,8 +625,26 @@ footer {
   .paragraph {
     width: 80%;
     padding-left: 15vw;
+    padding-right: 15vw;
     display: inline-block;
     font-size: 18px;
+  }
+  .blog-content .soundcloud{
+    top:280px;
+    left:10vw;
+  }
+  .blog-content #soundcloud_widget{
+    width:80vw;
+    height:350px;
+  }
+  .blog-item .recent-post{
+    height:fit-content;
+    right:10vw;
+    top:80vh;
+    display:none;
+  }
 
+  .top{
+    font-size:0.6rem;
   }
 }

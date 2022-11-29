@@ -23,6 +23,10 @@ body {
   margin:0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -354,7 +358,7 @@ input[type ="text"]{
 
 
 .top {
-  --offset: 800px; 
+  --offset: 2100px; 
   position: sticky;
   bottom: 20px;  
   left:90vw;    
@@ -416,6 +420,11 @@ footer {
     url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Anime-Night-Sky-Wallpapers.jpg)
       center/ cover no-repeat fixed; 
 }
+
+  .dark-mode .top{
+    background-color: #ffffff;
+    color: #121212;
+  }
 
 
 
@@ -621,6 +630,21 @@ footer {
   
   .wrapper.active .arrow span{
     font-size:21px;
+  }
+
+  .introduce{
+    height:80vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+  }
+
+  .introduce h2{
+    top:80vh;
+    font-size: 1.5rem;
+  }
+
+  .top{
+    font-size:0.6rem;
   }
 
 }
