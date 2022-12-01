@@ -346,9 +346,10 @@ footer {
   background: #121212;
 }
 
-.dark-mode .blog-content{
- color:#121212;
-} 
+
+.dark-mode .blog-item{
+  color: #121212;
+}
 
 .dark-mode h3{
   color:#e0f7fa;
@@ -481,7 +482,7 @@ footer {
 
 
 
-@media only screen and (min-width:1056px) and (max-width:1728px) {
+@media only screen and (min-width:961px) and (max-width:1560px) {
 
   .navbar-nav {
     margin: 0;
@@ -516,6 +517,10 @@ footer {
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+
+  .blog-content #soundcloud_widget{
+    max-width: 20vw;
   }
 }
 
