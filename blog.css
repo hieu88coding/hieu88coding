@@ -152,9 +152,9 @@ header {
 }
 
 .recent-post {
-  width: 20vw;
+  width: 18vw;
   position:absolute;
-  right:3vw;
+  right:2vw;
   top:505px;
 }
 
@@ -188,7 +188,7 @@ header {
 .soundcloud{
   position:absolute;
   top:505px;
-  left:3vw;
+  left:2vw;
 }
 .blogname {
   visibility: hidden;
