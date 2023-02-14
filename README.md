@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 
 
-lett go
+lett go, welcome to mah blog xD.
